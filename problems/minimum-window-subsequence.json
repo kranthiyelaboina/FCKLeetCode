@@ -1,5 +1,7 @@
 {
   "problemName": "minimum-window-subsequence",
   "language": "java",
-  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-window-subsequence\n        return 0;\n    }\n}"
+  "code": "class Solution {\n    public String minWindow(String S, String T) {\n        if (S == null || T == null || S.length() < T.length()) {\n            return \"\";\n        }\n        int m = S.length();\n        int n = T.length();\n        int minLen = Integer.MAX_VALUE;\n        String minWindow = \"\";\n        int[][] dp = new int[n + 1][m + 1];\n        for (int i = 0; i <= m; i++) {\n            dp[0][i] = i + 1;\n        }\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= m; j++) {\n                if (S.charAt(j - 1) == T.charAt(i - 1)) {\n                    dp[i][j] = dp[i - 1][j - 1];\n                } else {\n                    dp[i][j] = dp[i][j - 1];\n                }\n            }\n        }\n        for (int j = 1; j <= m; j++) {\n            if (dp[n][j] != 0 && j - dp[n][j] + 1 < minLen) {\n                minLen = j - dp[n][j] + 1;\n                minWindow = S.substring(dp[n][j] - 1, j);\n            }\n        }\n        return minWindow;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-10T16:10:50.624Z"
 }

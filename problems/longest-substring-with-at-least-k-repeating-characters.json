@@ -1,5 +1,7 @@
 {
   "problemName": "longest-substring-with-at-least-k-repeating-characters",
   "language": "java",
-  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-substring-with-at-least-k-repeating-characters\n        return 0;\n    }\n}"
+  "code": "class Solution {\n    public int longestSubstring(String s, int k) {\n        if (s == null || s.length() == 0) {\n            return 0;\n        }\n        return helper(s, k, 0, s.length() - 1);\n    }\n    private int helper(String s, int k, int start, int end) {\n        if (end - start + 1 < k) {\n            return 0;\n        }\n        int[] count = new int[26];\n        for (int i = start; i <= end; i++) {\n            count[s.charAt(i) - 'a']++;\n        }\n        int i = start;\n        while (i <= end && count[s.charAt(i) - 'a'] >= k) {\n            i++;\n        }\n        if (i > end) {\n            return end - start + 1;\n        }\n        int left = helper(s, k, start, i - 1);\n        int right = helper(s, k, i, end);\n        return Math.max(left, right);\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-10T16:12:11.518Z"
 }
