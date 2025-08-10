@@ -1,0 +1,5 @@
+{
+  "problemName": "all-valid-triplets-that-can-represent-a-country",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for all-valid-triplets-that-can-represent-a-country\n        return 0;\n    }\n}"
+}

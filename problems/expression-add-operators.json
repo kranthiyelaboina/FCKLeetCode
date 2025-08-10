@@ -1,0 +1,5 @@
+{
+  "problemName": "expression-add-operators",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for expression-add-operators\n        return 0;\n    }\n}"
+}

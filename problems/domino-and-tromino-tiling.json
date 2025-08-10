@@ -1,0 +1,5 @@
+{
+  "problemName": "domino-and-tromino-tiling",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for domino-and-tromino-tiling\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "problemName": "min-cost-climbing-stairs",
+  "language": "java",
+  "code": "class Solution {\n    public int minCostClimbingStairs(int[] cost) {\n        int n = cost.length;\n        int downOne = 0;\n        int downTwo = 0;\n        for (int i = 2; i <= n; i++) {\n            int temp = downOne;\n            downOne = Math.min(downOne + cost[i - 1], downTwo + cost[i - 2]);\n            downTwo = temp;\n        }\n        return downOne;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:34:24.170Z"
+}

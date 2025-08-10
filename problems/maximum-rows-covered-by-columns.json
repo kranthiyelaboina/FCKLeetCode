@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-rows-covered-by-columns",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-rows-covered-by-columns\n        return 0;\n    }\n}"
+}

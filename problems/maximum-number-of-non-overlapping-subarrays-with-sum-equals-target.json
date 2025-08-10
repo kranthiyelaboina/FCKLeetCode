@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-number-of-non-overlapping-subarrays-with-sum-equals-target\n        return 0;\n    }\n}"
+}

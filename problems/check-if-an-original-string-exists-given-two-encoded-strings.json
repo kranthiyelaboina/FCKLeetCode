@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-an-original-string-exists-given-two-encoded-strings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-an-original-string-exists-given-two-encoded-strings\n        return 0;\n    }\n}"
+}

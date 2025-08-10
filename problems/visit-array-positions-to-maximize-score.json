@@ -1,0 +1,5 @@
+{
+  "problemName": "visit-array-positions-to-maximize-score",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for visit-array-positions-to-maximize-score\n        return 0;\n    }\n}"
+}

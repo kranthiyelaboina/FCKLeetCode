@@ -1,0 +1,5 @@
+{
+  "problemName": "final-prices-with-a-special-discount-in-a-shop",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for final-prices-with-a-special-discount-in-a-shop\n        return 0;\n    }\n}"
+}

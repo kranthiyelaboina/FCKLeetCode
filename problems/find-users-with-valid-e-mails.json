@@ -1,0 +1,5 @@
+{
+  "problemName": "find-users-with-valid-e-mails",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-users-with-valid-e-mails\n        return 0;\n    }\n}"
+}

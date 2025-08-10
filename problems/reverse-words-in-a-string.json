@@ -1,0 +1,7 @@
+{
+  "problemName": "reverse-words-in-a-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: AI generation failed for Reverse Words In A String\n        // Please implement manually\n        return 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:42:00.449Z"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "flatten-2d-vector",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for flatten-2d-vector\n        return 0;\n    }\n}"
+}

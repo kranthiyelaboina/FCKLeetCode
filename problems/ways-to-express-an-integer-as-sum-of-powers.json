@@ -1,0 +1,5 @@
+{
+  "problemName": "ways-to-express-an-integer-as-sum-of-powers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for ways-to-express-an-integer-as-sum-of-powers\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "leetbot",
+  "version": "1.0.0",
+  "description": "Leetcode bot to solve questions with AI-powered Java solutions",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "build": "electron-builder",
+    "cli": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kranthi Yelaboina",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^5.3.0",
+    "clipboardy": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12",
+    "inquirer": "^12.9.1",
+    "puppeteer": "^24.16.0"
+  },
+  "type": "module",
+  "build": {
+    "appId": "com.kranthiyelaboina.leetcoder",
+    "productName": "LeetCoder Bot",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/node_modules/*.d.ts",
+      "!**/node_modules/.bin",
+      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+      "!.editorconfig",
+      "!**/._*",
+      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+      "!**/{appveyor.yml,.travis.yml,circle.yml}",
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+    ]
+  }
+}

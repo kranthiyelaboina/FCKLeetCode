@@ -1,0 +1,5 @@
+{
+  "problemName": "count-pairs-of-connectable-servers-in-a-weighted-tree-network",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-pairs-of-connectable-servers-in-a-weighted-tree-network\n        return 0;\n    }\n}"
+}

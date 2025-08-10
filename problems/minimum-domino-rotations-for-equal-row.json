@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-domino-rotations-for-equal-row",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-domino-rotations-for-equal-row\n        return 0;\n    }\n}"
+}

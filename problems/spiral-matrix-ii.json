@@ -1,0 +1,5 @@
+{
+  "problemName": "spiral-matrix-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for spiral-matrix-ii\n        return 0;\n    }\n}"
+}

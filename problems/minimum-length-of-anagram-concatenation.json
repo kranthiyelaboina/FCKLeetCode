@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-length-of-anagram-concatenation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-length-of-anagram-concatenation\n        return 0;\n    }\n}"
+}

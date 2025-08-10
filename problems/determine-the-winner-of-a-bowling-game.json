@@ -1,0 +1,5 @@
+{
+  "problemName": "determine-the-winner-of-a-bowling-game",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for determine-the-winner-of-a-bowling-game\n        return 0;\n    }\n}"
+}

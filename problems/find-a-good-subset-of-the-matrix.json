@@ -1,0 +1,5 @@
+{
+  "problemName": "find-a-good-subset-of-the-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-a-good-subset-of-the-matrix\n        return 0;\n    }\n}"
+}

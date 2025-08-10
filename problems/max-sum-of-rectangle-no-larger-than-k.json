@@ -1,0 +1,5 @@
+{
+  "problemName": "max-sum-of-rectangle-no-larger-than-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for max-sum-of-rectangle-no-larger-than-k\n        return 0;\n    }\n}"
+}

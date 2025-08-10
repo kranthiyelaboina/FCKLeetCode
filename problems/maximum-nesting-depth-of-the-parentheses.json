@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-nesting-depth-of-the-parentheses",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-nesting-depth-of-the-parentheses\n        return 0;\n    }\n}"
+}

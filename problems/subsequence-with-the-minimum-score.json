@@ -1,0 +1,7 @@
+{
+  "problemName": "subsequence-with-the-minimum-score",
+  "language": "java",
+  "code": "class Solution {\n    public int minimumScore(String s, String t) {\n        int n = s.length();\n        int m = t.length();\n        int i = 0, j = 0;\n        int score = 0;\n        while (i < n && j < m) {\n            if (s.charAt(i) == t.charAt(j)) {\n                j++;\n            } else {\n                score++;\n            }\n            i++;\n        }\n        score += m - j;\n        return score;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:16:34.519Z"
+}

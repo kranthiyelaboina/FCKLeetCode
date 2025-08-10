@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-all-1s-are-at-least-length-k-places-away",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-all-1s-are-at-least-length-k-places-away\n        return 0;\n    }\n}"
+}

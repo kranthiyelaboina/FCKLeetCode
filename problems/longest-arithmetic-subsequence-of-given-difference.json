@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-arithmetic-subsequence-of-given-difference",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-arithmetic-subsequence-of-given-difference\n        return 0;\n    }\n}"
+}

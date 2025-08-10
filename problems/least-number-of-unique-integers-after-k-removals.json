@@ -1,0 +1,5 @@
+{
+  "problemName": "least-number-of-unique-integers-after-k-removals",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for least-number-of-unique-integers-after-k-removals\n        return 0;\n    }\n}"
+}

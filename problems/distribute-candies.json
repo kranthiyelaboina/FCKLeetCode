@@ -1,0 +1,7 @@
+{
+  "problemName": "distribute-candies",
+  "language": "java",
+  "code": "class Solution {\n    public int distributeCandies(int[] candyType) {\n        Set<Integer> uniqueCandies = new HashSet<>();\n        for (int candy : candyType) {\n            uniqueCandies.add(candy);\n        }\n        int maxCandies = candyType.length / 2;\n        return Math.min(uniqueCandies.size(), maxCandies);\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:50:12.782Z"
+}

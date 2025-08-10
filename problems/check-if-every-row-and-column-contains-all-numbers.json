@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-every-row-and-column-contains-all-numbers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-every-row-and-column-contains-all-numbers\n        return 0;\n    }\n}"
+}

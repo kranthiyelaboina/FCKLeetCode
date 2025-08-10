@@ -1,0 +1,5 @@
+{
+  "problemName": "serialize-and-deserialize-bst",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for serialize-and-deserialize-bst\n        return 0;\n    }\n}"
+}

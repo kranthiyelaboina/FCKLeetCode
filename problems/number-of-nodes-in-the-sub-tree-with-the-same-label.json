@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-nodes-in-the-sub-tree-with-the-same-label\n        return 0;\n    }\n}"
+}

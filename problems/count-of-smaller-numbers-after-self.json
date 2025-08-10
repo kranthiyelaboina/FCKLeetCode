@@ -1,0 +1,5 @@
+{
+  "problemName": "count-of-smaller-numbers-after-self",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-of-smaller-numbers-after-self\n        return 0;\n    }\n}"
+}

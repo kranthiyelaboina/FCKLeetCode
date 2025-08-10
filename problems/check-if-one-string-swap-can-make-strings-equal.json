@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-one-string-swap-can-make-strings-equal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-one-string-swap-can-make-strings-equal\n        return 0;\n    }\n}"
+}

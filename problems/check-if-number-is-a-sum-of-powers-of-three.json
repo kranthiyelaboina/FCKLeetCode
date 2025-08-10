@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-number-is-a-sum-of-powers-of-three",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-number-is-a-sum-of-powers-of-three\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "problemName": "coloring-a-border",
+  "language": "java",
+  "code": "class Solution {\n    public int[][] colorBorder(int[][] grid, int row, int col, int color) {\n        int m = grid.length;\n        int n = grid[0].length;\n        int originalColor = grid[row][col];\n        boolean[][] visited = new boolean[m][n];\n        dfs(grid, row, col, originalColor, color, visited);\n        return grid;\n    }\n    private void dfs(int[][] grid, int row, int col, int originalColor, int color, boolean[][] visited) {\n        if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length || visited[row][col] || grid[row][col] != originalColor) {\n            return;\n        }\n        visited[row][col] = true;\n        boolean isBorder = false;\n        if (row == 0 || row == grid.length - 1 || col == 0 || col == grid[0].length - 1) {\n            isBorder = true;\n        } else {\n            if (grid[row - 1][col] != originalColor || grid[row + 1][col] != originalColor || grid[row][col - 1] != originalColor || grid[row][col + 1] != originalColor) {\n                isBorder = true;\n            }\n        }\n        dfs(grid, row + 1, col, originalColor, color, visited);\n        dfs(grid, row - 1, col, originalColor, color, visited);\n        dfs(grid, row, col + 1, originalColor, color, visited);\n        dfs(grid, row, col - 1, originalColor, color, visited);\n        if (isBorder) {\n            grid[row][col] = color;\n        }\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:11:29.524Z"
+}

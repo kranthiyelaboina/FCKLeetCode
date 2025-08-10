@@ -1,0 +1,5 @@
+{
+  "problemName": "tiling-a-rectangle-with-the-fewest-squares",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for tiling-a-rectangle-with-the-fewest-squares\n        return 0;\n    }\n}"
+}

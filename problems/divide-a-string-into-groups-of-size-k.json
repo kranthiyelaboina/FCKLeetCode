@@ -1,0 +1,5 @@
+{
+  "problemName": "divide-a-string-into-groups-of-size-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for divide-a-string-into-groups-of-size-k\n        return 0;\n    }\n}"
+}

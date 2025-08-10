@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-width-ramp",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-width-ramp\n        return 0;\n    }\n}"
+}

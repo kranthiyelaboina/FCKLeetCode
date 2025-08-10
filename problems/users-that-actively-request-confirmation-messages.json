@@ -1,0 +1,5 @@
+{
+  "problemName": "users-that-actively-request-confirmation-messages",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for users-that-actively-request-confirmation-messages\n        return 0;\n    }\n}"
+}

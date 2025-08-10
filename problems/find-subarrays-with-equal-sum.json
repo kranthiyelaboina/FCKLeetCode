@@ -1,0 +1,5 @@
+{
+  "problemName": "find-subarrays-with-equal-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-subarrays-with-equal-sum\n        return 0;\n    }\n}"
+}

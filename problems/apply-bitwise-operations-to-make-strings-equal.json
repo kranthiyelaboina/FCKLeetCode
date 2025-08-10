@@ -1,0 +1,5 @@
+{
+  "problemName": "apply-bitwise-operations-to-make-strings-equal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for apply-bitwise-operations-to-make-strings-equal\n        return 0;\n    }\n}"
+}

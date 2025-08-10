@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-substrings-with-only-1s",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-substrings-with-only-1s\n        return 0;\n    }\n}"
+}

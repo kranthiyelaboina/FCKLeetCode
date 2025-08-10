@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-insertions-to-balance-a-parentheses-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-insertions-to-balance-a-parentheses-string\n        return 0;\n    }\n}"
+}

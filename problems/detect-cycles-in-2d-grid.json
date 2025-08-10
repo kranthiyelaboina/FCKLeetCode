@@ -1,0 +1,7 @@
+{
+  "problemName": "detect-cycles-in-2d-grid",
+  "language": "java",
+  "code": "class Solution {\n    private boolean dfs(char[][] grid, int row, int col, int parentRow, int parentCol, boolean[][] visited) {\n        int m = grid.length;\n        int n = grid[0].length;\n        visited[row][col] = true;\n        int[] dr = {0, 0, 1, -1};\n        int[] dc = {1, -1, 0, 0};\n        for (int i = 0; i < 4; i++) {\n            int newRow = row + dr[i];\n            int newCol = col + dc[i];\n            if (newRow >= 0 && newRow < m && newCol >= 0 && newCol < n && grid[newRow][newCol] == grid[row][col]) {\n                if (!visited[newRow][newCol]) {\n                    if (dfs(grid, newRow, newCol, row, col, visited)) {\n                        return true;\n                    }\n                } else if (newRow != parentRow || newCol != parentCol) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n    public boolean containsCycle(char[][] grid) {\n        int m = grid.length;\n        int n = grid[0].length;\n        boolean[][] visited = new boolean[m][n];\n        for (int i = 0; i < m; i++) {\n            for (int j = 0; j < n; j++) {\n                if (!visited[i][j]) {\n                    if (dfs(grid, i, j, -1, -1, visited)) {\n                        return true;\n                    }\n                }\n            }\n        }\n        return false;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:12:56.064Z"
+}

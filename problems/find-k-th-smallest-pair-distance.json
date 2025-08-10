@@ -1,0 +1,5 @@
+{
+  "problemName": "find-k-th-smallest-pair-distance",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-k-th-smallest-pair-distance\n        return 0;\n    }\n}"
+}

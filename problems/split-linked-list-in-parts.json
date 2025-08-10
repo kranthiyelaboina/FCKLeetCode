@@ -1,0 +1,5 @@
+{
+  "problemName": "split-linked-list-in-parts",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for split-linked-list-in-parts\n        return 0;\n    }\n}"
+}

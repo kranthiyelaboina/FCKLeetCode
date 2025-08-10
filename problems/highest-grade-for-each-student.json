@@ -1,0 +1,5 @@
+{
+  "problemName": "highest-grade-for-each-student",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for highest-grade-for-each-student\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "lexicographically-minimum-string-after-removing-stars",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for lexicographically-minimum-string-after-removing-stars\n        return 0;\n    }\n}"
+}

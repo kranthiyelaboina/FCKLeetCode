@@ -1,0 +1,7 @@
+{
+  "problemName": "palindrome-linked-list",
+  "language": "java",
+  "code": "class Solution {\n    public boolean isPalindrome(ListNode head) {\n        if (head == null || head.next == null) return true;\n        ListNode slow = head;\n        ListNode fast = head;\n        while (fast != null && fast.next != null) {\n            slow = slow.next;\n            fast = fast.next.next;\n        }\n        ListNode secondHalf = reverseList(slow);\n        ListNode firstHalf = head;\n        while (secondHalf != null) {\n            if (firstHalf.val != secondHalf.val) return false;\n            firstHalf = firstHalf.next;\n            secondHalf = secondHalf.next;\n        }\n        return true;\n    }\n    private ListNode reverseList(ListNode head) {\n        ListNode prev = null;\n        ListNode curr = head;\n        while (curr != null) {\n            ListNode next = curr.next;\n            curr.next = prev;\n            prev = curr;\n            curr = next;\n        }\n        return prev;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:42:10.801Z"
+}

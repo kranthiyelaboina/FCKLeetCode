@@ -1,0 +1,5 @@
+{
+  "problemName": "design-graph-with-shortest-path-calculator",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for design-graph-with-shortest-path-calculator\n        return 0;\n    }\n}"
+}

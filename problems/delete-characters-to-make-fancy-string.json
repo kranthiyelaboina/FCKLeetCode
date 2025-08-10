@@ -1,0 +1,5 @@
+{
+  "problemName": "delete-characters-to-make-fancy-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for delete-characters-to-make-fancy-string\n        return 0;\n    }\n}"
+}

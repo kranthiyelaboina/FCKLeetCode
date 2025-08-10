@@ -1,0 +1,5 @@
+{
+  "problemName": "make-costs-of-paths-equal-in-a-binary-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for make-costs-of-paths-equal-in-a-binary-tree\n        return 0;\n    }\n}"
+}

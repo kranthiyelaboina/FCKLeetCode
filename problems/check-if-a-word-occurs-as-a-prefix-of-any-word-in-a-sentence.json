@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence\n        return 0;\n    }\n}"
+}

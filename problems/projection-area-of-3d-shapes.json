@@ -1,0 +1,7 @@
+{
+  "problemName": "projection-area-of-3d-shapes",
+  "language": "java",
+  "code": "class Solution {\n    public int projectionArea(int[][] grid) {\n        int n = grid.length;\n        int xyArea = 0;\n        int xzArea = 0;\n        int yzArea = 0;\n        for (int i = 0; i < n; i++) {\n            int maxRow = 0;\n            int maxCol = 0;\n            for (int j = 0; j < n; j++) {\n                if (grid[i][j] > 0) {\n                    xyArea++;\n                }\n                maxRow = Math.max(maxRow, grid[i][j]);\n                maxCol = Math.max(maxCol, grid[j][i]);\n            }\n            xzArea += maxCol;\n            yzArea += maxRow;\n        }\n        return xyArea + xzArea + yzArea;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:33:03.526Z"
+}

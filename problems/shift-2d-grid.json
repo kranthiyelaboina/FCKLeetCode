@@ -1,0 +1,5 @@
+{
+  "problemName": "shift-2d-grid",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shift-2d-grid\n        return 0;\n    }\n}"
+}

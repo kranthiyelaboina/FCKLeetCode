@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-nesting-depth-of-two-valid-parentheses-strings\n        return 0;\n    }\n}"
+}

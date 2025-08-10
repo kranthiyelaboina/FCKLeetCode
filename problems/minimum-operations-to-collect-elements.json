@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-operations-to-collect-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-operations-to-collect-elements\n        return 0;\n    }\n}"
+}

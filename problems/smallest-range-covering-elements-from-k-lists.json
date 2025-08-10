@@ -1,0 +1,5 @@
+{
+  "problemName": "smallest-range-covering-elements-from-k-lists",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for smallest-range-covering-elements-from-k-lists\n        return 0;\n    }\n}"
+}

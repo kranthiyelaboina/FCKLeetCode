@@ -1,0 +1,5 @@
+{
+  "problemName": "sum-of-digits-in-base-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sum-of-digits-in-base-k\n        return 0;\n    }\n}"
+}

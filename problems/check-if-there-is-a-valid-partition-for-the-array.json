@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-there-is-a-valid-partition-for-the-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-there-is-a-valid-partition-for-the-array\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "insertion-sort-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for insertion-sort-list\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-69-number",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-69-number\n        return 0;\n    }\n}"
+}

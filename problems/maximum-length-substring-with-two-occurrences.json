@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-length-substring-with-two-occurrences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-length-substring-with-two-occurrences\n        return 0;\n    }\n}"
+}

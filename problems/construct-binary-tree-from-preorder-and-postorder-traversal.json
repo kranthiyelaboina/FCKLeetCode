@@ -1,0 +1,5 @@
+{
+  "problemName": "construct-binary-tree-from-preorder-and-postorder-traversal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for construct-binary-tree-from-preorder-and-postorder-traversal\n        return 0;\n    }\n}"
+}

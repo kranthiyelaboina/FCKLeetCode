@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-swaps-to-group-all-1s-together-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-swaps-to-group-all-1s-together-ii\n        return 0;\n    }\n}"
+}

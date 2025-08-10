@@ -1,0 +1,5 @@
+{
+  "problemName": "divide-array-in-sets-of-k-consecutive-numbers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for divide-array-in-sets-of-k-consecutive-numbers\n        return 0;\n    }\n}"
+}

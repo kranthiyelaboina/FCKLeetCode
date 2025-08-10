@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-days-to-eat-n-oranges",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-days-to-eat-n-oranges\n        return 0;\n    }\n}"
+}

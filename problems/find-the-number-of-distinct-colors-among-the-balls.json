@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-number-of-distinct-colors-among-the-balls",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-number-of-distinct-colors-among-the-balls\n        return 0;\n    }\n}"
+}

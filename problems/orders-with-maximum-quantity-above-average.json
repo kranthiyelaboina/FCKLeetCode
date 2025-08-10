@@ -1,0 +1,5 @@
+{
+  "problemName": "orders-with-maximum-quantity-above-average",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for orders-with-maximum-quantity-above-average\n        return 0;\n    }\n}"
+}

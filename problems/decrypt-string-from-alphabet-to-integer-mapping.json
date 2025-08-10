@@ -1,0 +1,5 @@
+{
+  "problemName": "decrypt-string-from-alphabet-to-integer-mapping",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for decrypt-string-from-alphabet-to-integer-mapping\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-black-blocks",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-black-blocks\n        return 0;\n    }\n}"
+}

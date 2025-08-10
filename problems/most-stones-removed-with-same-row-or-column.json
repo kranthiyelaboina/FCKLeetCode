@@ -1,0 +1,5 @@
+{
+  "problemName": "most-stones-removed-with-same-row-or-column",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for most-stones-removed-with-same-row-or-column\n        return 0;\n    }\n}"
+}

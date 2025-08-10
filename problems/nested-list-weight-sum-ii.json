@@ -1,0 +1,5 @@
+{
+  "problemName": "nested-list-weight-sum-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for nested-list-weight-sum-ii\n        return 0;\n    }\n}"
+}

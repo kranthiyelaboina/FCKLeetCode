@@ -1,0 +1,5 @@
+{
+  "problemName": "k-radius-subarray-averages",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for k-radius-subarray-averages\n        return 0;\n    }\n}"
+}

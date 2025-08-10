@@ -1,0 +1,5 @@
+{
+  "problemName": "make-number-of-distinct-characters-equal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for make-number-of-distinct-characters-equal\n        return 0;\n    }\n}"
+}

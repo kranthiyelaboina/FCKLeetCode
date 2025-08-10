@@ -1,0 +1,5 @@
+{
+  "problemName": "find-closest-node-to-given-two-nodes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-closest-node-to-given-two-nodes\n        return 0;\n    }\n}"
+}

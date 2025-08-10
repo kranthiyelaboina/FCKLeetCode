@@ -1,0 +1,5 @@
+{
+  "problemName": "ways-to-split-array-into-three-subarrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for ways-to-split-array-into-three-subarrays\n        return 0;\n    }\n}"
+}

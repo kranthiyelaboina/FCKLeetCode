@@ -1,0 +1,5 @@
+{
+  "problemName": "count-ways-to-group-overlapping-ranges",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-ways-to-group-overlapping-ranges\n        return 0;\n    }\n}"
+}

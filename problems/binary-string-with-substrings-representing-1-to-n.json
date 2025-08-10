@@ -1,0 +1,5 @@
+{
+  "problemName": "binary-string-with-substrings-representing-1-to-n",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for binary-string-with-substrings-representing-1-to-n\n        return 0;\n    }\n}"
+}

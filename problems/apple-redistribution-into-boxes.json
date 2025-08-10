@@ -1,0 +1,5 @@
+{
+  "problemName": "apple-redistribution-into-boxes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for apple-redistribution-into-boxes\n        return 0;\n    }\n}"
+}

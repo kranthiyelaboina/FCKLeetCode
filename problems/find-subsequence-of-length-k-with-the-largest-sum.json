@@ -1,0 +1,5 @@
+{
+  "problemName": "find-subsequence-of-length-k-with-the-largest-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-subsequence-of-length-k-with-the-largest-sum\n        return 0;\n    }\n}"
+}

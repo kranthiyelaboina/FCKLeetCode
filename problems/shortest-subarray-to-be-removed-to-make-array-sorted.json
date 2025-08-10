@@ -1,0 +1,5 @@
+{
+  "problemName": "shortest-subarray-to-be-removed-to-make-array-sorted",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shortest-subarray-to-be-removed-to-make-array-sorted\n        return 0;\n    }\n}"
+}

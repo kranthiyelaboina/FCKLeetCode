@@ -1,0 +1,5 @@
+{
+  "problemName": "extra-characters-in-a-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for extra-characters-in-a-string\n        return 0;\n    }\n}"
+}

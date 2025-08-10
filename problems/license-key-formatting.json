@@ -1,0 +1,5 @@
+{
+  "problemName": "license-key-formatting",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for license-key-formatting\n        return 0;\n    }\n}"
+}

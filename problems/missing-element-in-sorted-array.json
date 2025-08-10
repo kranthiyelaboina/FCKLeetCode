@@ -1,0 +1,7 @@
+{
+  "problemName": "missing-element-in-sorted-array",
+  "language": "java",
+  "code": "class Solution {\n    public int missingElement(int[] nums, int k) {\n        int n = nums.length;\n        int missing = 0;\n        for (int i = 1; i < n; i++) {\n            missing = nums[i] - nums[i - 1] - 1;\n            if (k <= missing) {\n                return nums[i - 1] + k;\n            }\n            k -= missing;\n        }\n        return nums[n - 1] + k;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:54:47.138Z"
+}

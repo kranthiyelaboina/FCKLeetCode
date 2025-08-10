@@ -1,0 +1,5 @@
+{
+  "problemName": "count-number-of-rectangles-containing-each-point",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-number-of-rectangles-containing-each-point\n        return 0;\n    }\n}"
+}

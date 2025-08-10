@@ -1,0 +1,5 @@
+{
+  "problemName": "find-pivot-index",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-pivot-index\n        return 0;\n    }\n}"
+}

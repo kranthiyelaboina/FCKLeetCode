@@ -1,0 +1,5 @@
+{
+  "problemName": "sum-of-beauty-of-all-substrings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sum-of-beauty-of-all-substrings\n        return 0;\n    }\n}"
+}

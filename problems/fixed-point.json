@@ -1,0 +1,5 @@
+{
+  "problemName": "fixed-point",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for fixed-point\n        return 0;\n    }\n}"
+}

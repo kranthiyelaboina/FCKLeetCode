@@ -1,0 +1,5 @@
+{
+  "problemName": "splitting-a-string-into-descending-consecutive-values",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for splitting-a-string-into-descending-consecutive-values\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "two-sum-ii-input-array-is-sorted",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for two-sum-ii-input-array-is-sorted\n        return 0;\n    }\n}"
+}

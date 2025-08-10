@@ -1,0 +1,5 @@
+{
+  "problemName": "partition-array-according-to-given-pivot",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for partition-array-according-to-given-pivot\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "determine-if-string-halves-are-alike",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for determine-if-string-halves-are-alike\n        return 0;\n    }\n}"
+}

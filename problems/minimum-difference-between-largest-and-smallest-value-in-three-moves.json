@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-difference-between-largest-and-smallest-value-in-three-moves\n        return 0;\n    }\n}"
+}

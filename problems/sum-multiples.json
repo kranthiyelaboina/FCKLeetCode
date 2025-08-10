@@ -1,0 +1,7 @@
+{
+  "problemName": "sum-multiples",
+  "language": "java",
+  "code": "class Solution {\n    public int sumOfMultiples(int n) {\n        int sum = 0;\n        for (int i = 1; i <= n; i++) {\n            if (i % 3 == 0 || i % 5 == 0 || i % 7 == 0) {\n                sum += i;\n            }\n        }\n        return sum;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:58:46.666Z"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "decompress-run-length-encoded-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for decompress-run-length-encoded-list\n        return 0;\n    }\n}"
+}

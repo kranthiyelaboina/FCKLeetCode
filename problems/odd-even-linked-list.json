@@ -1,0 +1,5 @@
+{
+  "problemName": "odd-even-linked-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for odd-even-linked-list\n        return 0;\n    }\n}"
+}

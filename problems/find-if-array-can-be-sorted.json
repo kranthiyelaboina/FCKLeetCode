@@ -1,0 +1,5 @@
+{
+  "problemName": "find-if-array-can-be-sorted",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-if-array-can-be-sorted\n        return 0;\n    }\n}"
+}

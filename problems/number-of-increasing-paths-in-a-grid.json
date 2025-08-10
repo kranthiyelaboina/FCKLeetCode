@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-increasing-paths-in-a-grid",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-increasing-paths-in-a-grid\n        return 0;\n    }\n}"
+}

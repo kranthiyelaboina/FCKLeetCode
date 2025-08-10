@@ -1,0 +1,5 @@
+{
+  "problemName": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-sum-with-exactly-k-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-sum-with-exactly-k-elements\n        return 0;\n    }\n}"
+}

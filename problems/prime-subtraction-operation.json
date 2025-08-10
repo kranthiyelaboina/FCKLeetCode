@@ -1,0 +1,5 @@
+{
+  "problemName": "prime-subtraction-operation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for prime-subtraction-operation\n        return 0;\n    }\n}"
+}

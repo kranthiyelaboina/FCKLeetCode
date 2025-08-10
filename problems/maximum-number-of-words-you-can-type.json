@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-number-of-words-you-can-type",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-number-of-words-you-can-type\n        return 0;\n    }\n}"
+}

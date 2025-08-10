@@ -1,0 +1,5 @@
+{
+  "problemName": "create-target-array-in-the-given-order",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for create-target-array-in-the-given-order\n        return 0;\n    }\n}"
+}

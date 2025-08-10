@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-absolute-difference-between-elements-with-constraint",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-absolute-difference-between-elements-with-constraint\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "consecutive-characters",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for consecutive-characters\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-consecutive-cards-to-pick-up",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-consecutive-cards-to-pick-up\n        return 0;\n    }\n}"
+}

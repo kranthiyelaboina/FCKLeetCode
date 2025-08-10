@@ -1,0 +1,5 @@
+{
+  "problemName": "count-pairs-of-similar-strings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-pairs-of-similar-strings\n        return 0;\n    }\n}"
+}

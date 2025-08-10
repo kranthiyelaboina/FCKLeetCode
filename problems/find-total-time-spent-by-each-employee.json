@@ -1,0 +1,5 @@
+{
+  "problemName": "find-total-time-spent-by-each-employee",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-total-time-spent-by-each-employee\n        return 0;\n    }\n}"
+}

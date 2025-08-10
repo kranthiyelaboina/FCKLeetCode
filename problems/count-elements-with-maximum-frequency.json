@@ -1,0 +1,5 @@
+{
+  "problemName": "count-elements-with-maximum-frequency",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-elements-with-maximum-frequency\n        return 0;\n    }\n}"
+}

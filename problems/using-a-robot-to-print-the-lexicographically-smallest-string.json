@@ -1,0 +1,5 @@
+{
+  "problemName": "using-a-robot-to-print-the-lexicographically-smallest-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for using-a-robot-to-print-the-lexicographically-smallest-string\n        return 0;\n    }\n}"
+}

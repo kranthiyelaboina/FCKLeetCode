@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-maximum-number-of-elements-in-subset",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-maximum-number-of-elements-in-subset\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-absolute-sum-of-any-subarray",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-absolute-sum-of-any-subarray\n        return 0;\n    }\n}"
+}

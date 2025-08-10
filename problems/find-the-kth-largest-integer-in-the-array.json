@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-kth-largest-integer-in-the-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-kth-largest-integer-in-the-array\n        return 0;\n    }\n}"
+}

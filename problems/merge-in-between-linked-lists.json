@@ -1,0 +1,5 @@
+{
+  "problemName": "merge-in-between-linked-lists",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for merge-in-between-linked-lists\n        return 0;\n    }\n}"
+}

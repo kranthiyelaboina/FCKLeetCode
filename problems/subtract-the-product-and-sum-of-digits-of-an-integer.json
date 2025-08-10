@@ -1,0 +1,5 @@
+{
+  "problemName": "subtract-the-product-and-sum-of-digits-of-an-integer",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for subtract-the-product-and-sum-of-digits-of-an-integer\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-triangle-area",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-triangle-area\n        return 0;\n    }\n}"
+}

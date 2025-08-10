@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-duplicates-from-sorted-list-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-duplicates-from-sorted-list-ii\n        return 0;\n    }\n}"
+}

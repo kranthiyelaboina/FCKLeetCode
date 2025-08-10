@@ -1,0 +1,5 @@
+{
+  "problemName": "longer-contiguous-segments-of-ones-than-zeros",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longer-contiguous-segments-of-ones-than-zeros\n        return 0;\n    }\n}"
+}

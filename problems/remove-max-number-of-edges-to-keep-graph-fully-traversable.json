@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-max-number-of-edges-to-keep-graph-fully-traversable\n        return 0;\n    }\n}"
+}

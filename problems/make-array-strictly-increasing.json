@@ -1,0 +1,5 @@
+{
+  "problemName": "make-array-strictly-increasing",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for make-array-strictly-increasing\n        return 0;\n    }\n}"
+}

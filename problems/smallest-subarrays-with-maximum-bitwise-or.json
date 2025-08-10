@@ -1,0 +1,5 @@
+{
+  "problemName": "smallest-subarrays-with-maximum-bitwise-or",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for smallest-subarrays-with-maximum-bitwise-or\n        return 0;\n    }\n}"
+}

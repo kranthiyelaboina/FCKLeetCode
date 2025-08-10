@@ -1,0 +1,7 @@
+{
+  "problemName": "remove-9",
+  "language": "java",
+  "code": "class Solution {\n    public int newInteger(int n) {\n        int result = 0;\n        int power = 1;\n        while (n > 0) {\n            result += (n % 9) * power;\n            n /= 9;\n            power *= 10;\n        }\n        return result;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:18:25.692Z"
+}

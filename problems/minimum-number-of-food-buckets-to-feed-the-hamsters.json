@@ -1,0 +1,7 @@
+{
+  "problemName": "minimum-number-of-food-buckets-to-feed-the-hamsters",
+  "language": "java",
+  "code": "class Solution {\n    public int minimumBuckets(String street) {\n        int n = street.length();\n        if (n == 1) {\n            return street.charAt(0) == 'H' ? -1 : 0;\n        }\n        int count = 0;\n        for (int i = 0; i < n; i++) {\n            if (street.charAt(i) == 'H') {\n                if (i > 0 && i < n - 1) {\n                    if (street.charAt(i - 1) == 'B') continue;\n                    if (street.charAt(i + 1) == '.') {\n                        street = street.substring(0, i + 1) + 'B' + street.substring(i + 2);\n                        count++;\n                    } else if (street.charAt(i - 1) == '.') {\n                        count++;\n                    } else {\n                        return -1;\n                    }\n                } else if (i == 0) {\n                    if (street.charAt(i + 1) == '.') {\n                        street = street.substring(0, i + 1) + 'B' + street.substring(i + 2);\n                        count++;\n                    } else {\n                        return -1;\n                    }\n                } else {\n                    if (street.charAt(i - 1) == '.') {\n                        count++;\n                    } else {\n                        return -1;\n                    }\n                }\n            }\n        }\n        return count;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:33:38.724Z"
+}

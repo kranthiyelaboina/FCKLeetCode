@@ -1,0 +1,5 @@
+{
+  "problemName": "count-positions-on-street-with-required-brightness",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-positions-on-street-with-required-brightness\n        return 0;\n    }\n}"
+}

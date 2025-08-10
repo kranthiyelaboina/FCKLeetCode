@@ -1,0 +1,5 @@
+{
+  "problemName": "find-if-path-exists-in-graph",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-if-path-exists-in-graph\n        return 0;\n    }\n}"
+}

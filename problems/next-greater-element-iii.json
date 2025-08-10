@@ -1,0 +1,5 @@
+{
+  "problemName": "next-greater-element-iii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for next-greater-element-iii\n        return 0;\n    }\n}"
+}

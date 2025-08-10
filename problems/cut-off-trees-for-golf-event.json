@@ -1,0 +1,5 @@
+{
+  "problemName": "cut-off-trees-for-golf-event",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for cut-off-trees-for-golf-event\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "different-ways-to-add-parentheses",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for different-ways-to-add-parentheses\n        return 0;\n    }\n}"
+}

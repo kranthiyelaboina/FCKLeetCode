@@ -1,0 +1,5 @@
+{
+  "problemName": "encode-and-decode-tinyurl",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for encode-and-decode-tinyurl\n        return 0;\n    }\n}"
+}

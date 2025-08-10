@@ -1,0 +1,5 @@
+{
+  "problemName": "sliding-window-maximum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sliding-window-maximum\n        return 0;\n    }\n}"
+}

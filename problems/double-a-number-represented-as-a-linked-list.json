@@ -1,0 +1,5 @@
+{
+  "problemName": "double-a-number-represented-as-a-linked-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for double-a-number-represented-as-a-linked-list\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "count-nodes-equal-to-average-of-subtree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-nodes-equal-to-average-of-subtree\n        return 0;\n    }\n}"
+}

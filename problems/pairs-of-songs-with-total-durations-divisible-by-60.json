@@ -1,0 +1,5 @@
+{
+  "problemName": "pairs-of-songs-with-total-durations-divisible-by-60",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for pairs-of-songs-with-total-durations-divisible-by-60\n        return 0;\n    }\n}"
+}

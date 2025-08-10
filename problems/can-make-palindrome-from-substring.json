@@ -1,0 +1,5 @@
+{
+  "problemName": "can-make-palindrome-from-substring",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for can-make-palindrome-from-substring\n        return 0;\n    }\n}"
+}

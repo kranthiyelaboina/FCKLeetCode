@@ -1,0 +1,5 @@
+{
+  "problemName": "find-polygon-with-the-largest-perimeter",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-polygon-with-the-largest-perimeter\n        return 0;\n    }\n}"
+}

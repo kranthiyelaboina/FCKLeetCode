@@ -1,0 +1,5 @@
+{
+  "problemName": "reverse-linked-list-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for reverse-linked-list-ii\n        return 0;\n    }\n}"
+}

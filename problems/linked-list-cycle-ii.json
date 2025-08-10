@@ -1,0 +1,5 @@
+{
+  "problemName": "linked-list-cycle-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for linked-list-cycle-ii\n        return 0;\n    }\n}"
+}

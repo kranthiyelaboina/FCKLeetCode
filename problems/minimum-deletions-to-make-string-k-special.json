@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-deletions-to-make-string-k-special",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-deletions-to-make-string-k-special\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "process-tasks-using-servers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for process-tasks-using-servers\n        return 0;\n    }\n}"
+}

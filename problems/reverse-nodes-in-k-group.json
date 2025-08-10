@@ -1,0 +1,5 @@
+{
+  "problemName": "reverse-nodes-in-k-group",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for reverse-nodes-in-k-group\n        return 0;\n    }\n}"
+}

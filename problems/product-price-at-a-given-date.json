@@ -1,0 +1,7 @@
+{
+  "problemName": "product-price-at-a-given-date",
+  "language": "java",
+  "code": "class Solution {\n    public int findProductPrice(int[][] prices, int timestamp) {\n        TreeMap<Integer, Integer> priceMap = new TreeMap<>();\n        for (int[] price : prices) {\n            priceMap.put(price[0], price[1]);\n        }\n        Integer floorKey = priceMap.floorKey(timestamp);\n        if (floorKey == null) {\n            return -1;\n        } else {\n            return priceMap.get(floorKey);\n        }\n    }\n    public int[] productPriceAtDate(int[][] prices, int[] timestamps) {\n        TreeMap<Integer, Integer> priceMap = new TreeMap<>();\n        for (int[] price : prices) {\n            priceMap.put(price[0], price[1]);\n        }\n        int[] result = new int[timestamps.length];\n        for (int i = 0; i < timestamps.length; i++) {\n            Integer floorKey = priceMap.floorKey(timestamps[i]);\n            if (floorKey == null) {\n                result[i] = -1;\n            } else {\n                result[i] = priceMap.get(floorKey);\n            }\n        }\n        return result;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:09:57.986Z"
+}

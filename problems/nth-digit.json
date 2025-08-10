@@ -1,0 +1,5 @@
+{
+  "problemName": "nth-digit",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for nth-digit\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "kth-smallest-instructions",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for kth-smallest-instructions\n        return 0;\n    }\n}"
+}

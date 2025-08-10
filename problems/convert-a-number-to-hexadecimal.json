@@ -1,0 +1,5 @@
+{
+  "problemName": "convert-a-number-to-hexadecimal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for convert-a-number-to-hexadecimal\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-numbers-of-function-calls-to-make-target-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-numbers-of-function-calls-to-make-target-array\n        return 0;\n    }\n}"
+}

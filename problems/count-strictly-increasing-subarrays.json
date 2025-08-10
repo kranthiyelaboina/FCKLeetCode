@@ -1,0 +1,5 @@
+{
+  "problemName": "count-strictly-increasing-subarrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-strictly-increasing-subarrays\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "binary-number-with-alternating-bits",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for binary-number-with-alternating-bits\n        return 0;\n    }\n}"
+}

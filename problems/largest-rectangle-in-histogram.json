@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-rectangle-in-histogram",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-rectangle-in-histogram\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "add-bold-tag-in-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for add-bold-tag-in-string\n        return 0;\n    }\n}"
+}

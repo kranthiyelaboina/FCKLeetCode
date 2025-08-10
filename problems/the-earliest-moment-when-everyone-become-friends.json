@@ -1,0 +1,5 @@
+{
+  "problemName": "the-earliest-moment-when-everyone-become-friends",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for the-earliest-moment-when-everyone-become-friends\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "product-of-array-except-self",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for product-of-array-except-self\n        return 0;\n    }\n}"
+}

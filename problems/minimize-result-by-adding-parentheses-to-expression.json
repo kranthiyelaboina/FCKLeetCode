@@ -1,0 +1,5 @@
+{
+  "problemName": "minimize-result-by-adding-parentheses-to-expression",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimize-result-by-adding-parentheses-to-expression\n        return 0;\n    }\n}"
+}

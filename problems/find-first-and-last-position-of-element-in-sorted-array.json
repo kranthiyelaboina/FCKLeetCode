@@ -1,0 +1,5 @@
+{
+  "problemName": "find-first-and-last-position-of-element-in-sorted-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-first-and-last-position-of-element-in-sorted-array\n        return 0;\n    }\n}"
+}

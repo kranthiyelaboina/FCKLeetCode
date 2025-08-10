@@ -1,0 +1,5 @@
+{
+  "problemName": "sentence-similarity",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sentence-similarity\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-operations-to-make-array-xor-equal-to-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-operations-to-make-array-xor-equal-to-k\n        return 0;\n    }\n}"
+}

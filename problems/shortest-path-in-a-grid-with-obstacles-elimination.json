@@ -1,0 +1,5 @@
+{
+  "problemName": "shortest-path-in-a-grid-with-obstacles-elimination",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shortest-path-in-a-grid-with-obstacles-elimination\n        return 0;\n    }\n}"
+}

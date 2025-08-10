@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-point-is-reachable",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-point-is-reachable\n        return 0;\n    }\n}"
+}

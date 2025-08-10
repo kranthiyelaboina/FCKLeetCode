@@ -1,0 +1,7 @@
+{
+  "problemName": "minimum-amount-of-time-to-fill-cups",
+  "language": "java",
+  "code": "class Solution {\n    public int fillCups(int[] amount) {\n        Arrays.sort(amount);\n        int a = amount[2];\n        int b = amount[1];\n        int c = amount[0];\n        int ans = 0;\n        while (a > 0) {\n            a--;\n            b--;\n            ans++;\n            if (b < 0) break;\n        }\n        if (b > 0) ans += b;\n        return ans;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:39:05.137Z"
+}

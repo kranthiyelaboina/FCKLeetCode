@@ -1,0 +1,5 @@
+{
+  "problemName": "minimize-length-of-array-using-operations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimize-length-of-array-using-operations\n        return 0;\n    }\n}"
+}

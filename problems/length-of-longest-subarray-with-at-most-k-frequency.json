@@ -1,0 +1,5 @@
+{
+  "problemName": "length-of-longest-subarray-with-at-most-k-frequency",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for length-of-longest-subarray-with-at-most-k-frequency\n        return 0;\n    }\n}"
+}

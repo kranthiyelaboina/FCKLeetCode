@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-connected-components-in-an-undirected-graph",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-connected-components-in-an-undirected-graph\n        return 0;\n    }\n}"
+}

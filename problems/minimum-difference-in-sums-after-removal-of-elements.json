@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-difference-in-sums-after-removal-of-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-difference-in-sums-after-removal-of-elements\n        return 0;\n    }\n}"
+}

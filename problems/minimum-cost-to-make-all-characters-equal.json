@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-cost-to-make-all-characters-equal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-cost-to-make-all-characters-equal\n        return 0;\n    }\n}"
+}

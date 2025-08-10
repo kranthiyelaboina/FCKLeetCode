@@ -1,0 +1,5 @@
+{
+  "problemName": "angle-between-hands-of-a-clock",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for angle-between-hands-of-a-clock\n        return 0;\n    }\n}"
+}

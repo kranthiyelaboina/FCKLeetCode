@@ -1,0 +1,5 @@
+{
+  "problemName": "design-hashmap",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for design-hashmap\n        return 0;\n    }\n}"
+}

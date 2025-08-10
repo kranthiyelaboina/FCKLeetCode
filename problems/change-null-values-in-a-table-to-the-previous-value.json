@@ -1,0 +1,5 @@
+{
+  "problemName": "change-null-values-in-a-table-to-the-previous-value",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for change-null-values-in-a-table-to-the-previous-value\n        return 0;\n    }\n}"
+}

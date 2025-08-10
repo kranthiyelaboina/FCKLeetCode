@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-zero-sum-consecutive-nodes-from-linked-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-zero-sum-consecutive-nodes-from-linked-list\n        return 0;\n    }\n}"
+}

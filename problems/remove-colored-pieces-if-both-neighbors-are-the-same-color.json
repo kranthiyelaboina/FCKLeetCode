@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-colored-pieces-if-both-neighbors-are-the-same-color\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "partition-array-such-that-maximum-difference-is-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for partition-array-such-that-maximum-difference-is-k\n        return 0;\n    }\n}"
+}

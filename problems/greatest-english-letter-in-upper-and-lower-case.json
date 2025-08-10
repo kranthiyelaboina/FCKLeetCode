@@ -1,0 +1,5 @@
+{
+  "problemName": "greatest-english-letter-in-upper-and-lower-case",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for greatest-english-letter-in-upper-and-lower-case\n        return 0;\n    }\n}"
+}

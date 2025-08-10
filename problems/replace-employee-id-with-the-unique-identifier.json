@@ -1,0 +1,5 @@
+{
+  "problemName": "replace-employee-id-with-the-unique-identifier",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for replace-employee-id-with-the-unique-identifier\n        return 0;\n    }\n}"
+}

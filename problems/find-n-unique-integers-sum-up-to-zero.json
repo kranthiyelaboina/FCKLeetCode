@@ -1,0 +1,5 @@
+{
+  "problemName": "find-n-unique-integers-sum-up-to-zero",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-n-unique-integers-sum-up-to-zero\n        return 0;\n    }\n}"
+}

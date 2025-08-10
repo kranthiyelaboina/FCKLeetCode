@@ -1,0 +1,5 @@
+{
+  "problemName": "booking-concert-tickets-in-groups",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for booking-concert-tickets-in-groups\n        return 0;\n    }\n}"
+}

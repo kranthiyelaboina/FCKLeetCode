@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCKLeetCode - AI-Powered Problem Solver</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles-new.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-dark">
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-dark sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand fw-bold fs-3" href="#">
+                <i class="bi bi-code-slash text-warning"></i>
+                FCKLeetCode
+            </a>
+            <div class="navbar-nav ms-auto">
+                <button class="btn btn-outline-light me-2" id="openSettingsBtn">
+                    <i class="bi bi-gear"></i> Settings
+                </button>
+                <button class="btn btn-success" id="refreshConfigBtn">
+                    <i class="bi bi-arrow-clockwise"></i> Refresh
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-4 py-4">
+        <!-- Hero Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="hero-card card bg-gradient-primary text-white border-0 shadow-lg">
+                    <div class="card-body p-5 text-center">
+                        <h1 class="display-4 fw-bold mb-3">
+                            <i class="bi bi-robot text-warning"></i>
+                            AI-Powered LeetCode Solver
+                        </h1>
+                        <p class="lead mb-4">Harness the power of Google Gemini AI to solve coding problems intelligently</p>
+                        <div class="row text-center">
+                            <div class="col-md-4">
+                                <i class="bi bi-lightning-charge fs-1 text-warning"></i>
+                                <h5>Lightning Fast</h5>
+                                <p class="small">Solve problems in seconds</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="bi bi-brain fs-1 text-warning"></i>
+                                <h5>AI-Powered</h5>
+                                <p class="small">Google Gemini intelligence</p>
+                            </div>
+                            <div class="col-md-4">
+                                <i class="bi bi-trophy fs-1 text-warning"></i>
+                                <h5>Success Rate</h5>
+                                <p class="small">Optimized solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Control Panel -->
+        <div class="row">
+            <!-- Problem Selection Panel -->
+            <div class="col-lg-8 mb-4">
+                <div class="card bg-dark-card border-secondary shadow-lg h-100">
+                    <div class="card-header bg-transparent border-secondary">
+                        <h4 class="text-white mb-0">
+                            <i class="bi bi-list-task text-primary"></i>
+                            Problem Configuration
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- Problem Count Input -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label for="problemCount" class="form-label text-white">
+                                    <i class="bi bi-hash text-primary"></i>
+                                    Number of Problems
+                                </label>
+                                <input type="number" 
+                                       id="problemCount" 
+                                       class="form-control form-control-lg bg-dark text-white border-secondary" 
+                                       min="1" 
+                                       max="100" 
+                                       value="5" 
+                                       placeholder="How many problems?"
+                                       required>
+                                <div class="form-text text-muted">Choose 1-100 problems to solve consecutively</div>
+                            </div>
+                        </div>
+
+                        <!-- Daily Challenge Section -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <div class="form-check form-switch mb-3">
+                                    <input class="form-check-input" type="checkbox" id="dailyChallenge">
+                                    <label class="form-check-label text-white fs-5" for="dailyChallenge">
+                                        <i class="bi bi-calendar-star text-warning"></i>
+                                        Solve Daily Challenge First
+                                    </label>
+                                </div>
+                                
+                                <div id="dailyChallengeSection" class="daily-challenge-section mt-3" style="display: none;">
+                                    <div class="card bg-secondary">
+                                        <div class="card-body">
+                                            <div class="row align-items-end">
+                                                <div class="col-md-6">
+                                                    <label for="dailyProblemNumber" class="form-label text-white">
+                                                        <i class="bi bi-hash"></i>
+                                                        Problem Number
+                                                    </label>
+                                                    <input type="number" 
+                                                           id="dailyProblemNumber" 
+                                                           class="form-control bg-dark text-white border-secondary" 
+                                                           placeholder="e.g., 234"
+                                                           min="1" 
+                                                           max="3000">
+                                                </div>
+                                                <div class="col-md-6 mt-3 mt-md-0">
+                                                    <button type="button" id="getProblemName" class="btn btn-outline-primary w-100">
+                                                        <i class="bi bi-search"></i>
+                                                        Get Problem Name
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div id="problemNameDisplay" class="mt-3" style="display: none;">
+                                                <div class="alert alert-info border-0">
+                                                    <i class="bi bi-info-circle-fill me-2"></i>
+                                                    <span id="problemNameText"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Advanced Options -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h6 class="text-white mb-3">
+                                    <i class="bi bi-sliders text-primary"></i>
+                                    Advanced Options
+                                </h6>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="skipSolved" checked>
+                                            <label class="form-check-label text-white" for="skipSolved">
+                                                <i class="bi bi-check-circle text-success"></i>
+                                                Skip Already Solved
+                                            </label>
+                                            <div class="form-text text-muted">Skip completed problems</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="skipPremium" checked>
+                                            <label class="form-check-label text-white" for="skipPremium">
+                                                <i class="bi bi-lock text-warning"></i>
+                                                Skip Premium Problems
+                                            </label>
+                                            <div class="form-text text-muted">Skip premium-only problems</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Status and Control Panel -->
+            <div class="col-lg-4">
+                <div class="row g-3">
+                    <!-- AI Status Card -->
+                    <div class="col-12">
+                        <div class="card bg-dark-card border-secondary shadow-lg">
+                            <div class="card-header bg-transparent border-secondary">
+                                <h5 class="text-white mb-0">
+                                    <i class="bi bi-cpu text-success"></i>
+                                    AI Status
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div id="aiStatus" class="status-indicator mb-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="status-dot bg-success me-2"></div>
+                                        <span class="text-white">Ready</span>
+                                    </div>
+                                </div>
+                                <div class="small text-muted">
+                                    <div><strong>Model:</strong> <span id="currentModel">Loading...</span></div>
+                                    <div><strong>Language:</strong> <span id="currentLanguage">Loading...</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Control Panel -->
+                    <div class="col-12">
+                        <div class="card bg-dark-card border-secondary shadow-lg">
+                            <div class="card-header bg-transparent border-secondary">
+                                <h5 class="text-white mb-0">
+                                    <i class="bi bi-play-circle text-primary"></i>
+                                    Control Panel
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <button id="startSolving" class="btn btn-success btn-lg w-100 mb-3 pulse-animation">
+                                    <i class="bi bi-rocket-takeoff"></i>
+                                    Start Solving
+                                </button>
+                                <button id="stopSolving" class="btn btn-danger w-100 mb-3 d-none">
+                                    <i class="bi bi-stop-circle"></i>
+                                    Stop Session
+                                </button>
+                                
+                                <div id="progressSection" class="d-none">
+                                    <div class="progress mb-2">
+                                        <div id="progressBar" class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 0%"></div>
+                                    </div>
+                                    <div class="small text-center text-muted">
+                                        <span id="progressText">Initializing...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Stats -->
+                    <div class="col-12">
+                        <div class="card bg-dark-card border-secondary shadow-lg">
+                            <div class="card-header bg-transparent border-secondary">
+                                <h6 class="text-white mb-0">
+                                    <i class="bi bi-graph-up text-info"></i>
+                                    Session Stats
+                                </h6>
+                            </div>
+                            <div class="card-body">
+                                <div class="row text-center">
+                                    <div class="col-3">
+                                        <div class="stat-item">
+                                            <div class="stat-number text-success" id="solvedCount">0</div>
+                                            <div class="stat-label text-muted">Solved</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="stat-item">
+                                            <div class="stat-number text-warning" id="errorCount">0</div>
+                                            <div class="stat-label text-muted">Errors</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="stat-item">
+                                            <div class="stat-number text-info" id="currentProblem">-</div>
+                                            <div class="stat-label text-muted">Current Problem</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3" id="additionalStats">
+                                    <!-- Additional stats will be populated here -->
+                                </div>
+                                <div class="mt-3 text-center" id="statusIndicator">
+                                    <span class="text-muted">Ready to start</span>
+                                </div>
+                                <!-- Live Activity Log -->
+                                <div class="mt-3" id="liveActivitySection" style="display: none;">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <small class="text-muted">Live Activity</small>
+                                        <button class="btn btn-sm btn-outline-secondary" id="clearLogBtn" style="font-size: 0.7rem; padding: 0.2rem 0.5rem;">
+                                            <i class="bi bi-trash"></i> Clear
+                                        </button>
+                                    </div>
+                                    <div id="liveActivityLog" class="activity-log" style="max-height: 200px; font-size: 0.8rem;">
+                                        <!-- Live logs will appear here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Card -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div id="statusCard" class="card bg-dark-card border-secondary shadow-lg d-none">
+                    <div class="card-header bg-transparent border-secondary d-flex justify-content-between align-items-center">
+                        <h5 class="text-white mb-0">
+                            <i class="bi bi-activity text-success"></i>
+                            Current Status
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="statusContent" class="d-flex align-items-center">
+                            <div class="spinner-border spinner-border-sm text-primary me-3" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <div id="statusMessage" class="text-white">Initializing...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="successToast" class="toast" role="alert">
+            <div class="toast-header bg-success text-white">
+                <i class="bi bi-check-circle-fill me-2"></i>
+                <strong class="me-auto">Success</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body bg-dark text-white">
+                <span id="successMessage">Operation completed successfully!</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error Toast -->
+    <div class="toast-container position-fixed top-0 end-0 p-3">
+        <div id="errorToast" class="toast" role="alert">
+            <div class="toast-header bg-danger text-white">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body bg-dark text-white">
+                <span id="errorMessage">An error occurred. Please try again.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer with Developer Credits -->
+    <footer class="text-center py-4" style="background: rgba(15, 23, 42, 0.9); border-top: 1px solid var(--border-color);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <p class="mb-1 text-light">
+                        <i class="bi bi-heart-fill text-danger"></i>
+                        Made with passion
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-1">
+                        <strong class="text-warning">FCKLeetCode v2.0</strong>
+                    </p>
+                    <small class="text-muted">AI-Powered LeetCode Solver</small>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-1 text-light">
+                        <strong>Developer:</strong>
+                    </p>
+                    <small class="text-info">
+                        Kranthi Yelaboina
+                    </small>
+                </div>
+            </div>
+            <hr class="my-3" style="border-color: var(--border-color);">
+            <p class="mb-0 text-muted">
+                <i class="bi bi-github"></i>
+                <a href="#" class="text-decoration-none text-info" id="githubLink">
+                    GitHub Repository
+                </a> | 
+                <i class="bi bi-bug"></i>
+                Report Issues | 
+                <i class="bi bi-star"></i>
+                Rate Us
+            </p>
+        </div>
+    </footer>
+
+    <!-- Settings Modal -->
+    <div id="settingsModal" class="settings-modal d-none">
+        <div class="settings-backdrop" id="settingsBackdrop"></div>
+        <div class="settings-container">
+            <div class="settings-header">
+                <div class="settings-title">
+                    <i class="bi bi-gear-fill text-primary"></i>
+                    <h2 class="mb-0">Settings</h2>
+                </div>
+                <button class="settings-close" id="closeSettingsBtn">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            
+            <div class="settings-content">
+                <div class="settings-tabs">
+                    <button class="settings-tab active" data-tab="general">
+                        <i class="bi bi-sliders"></i>
+                        General
+                    </button>
+                    <button class="settings-tab" data-tab="ai">
+                        <i class="bi bi-robot"></i>
+                        AI Configuration
+                    </button>
+                    <button class="settings-tab" data-tab="advanced">
+                        <i class="bi bi-tools"></i>
+                        Advanced
+                    </button>
+                </div>
+
+                <div class="settings-panels">
+                    <!-- General Settings -->
+                    <div class="settings-panel active" id="general-panel">
+                        <div class="settings-section">
+                            <h4 class="settings-section-title">
+                                <i class="bi bi-code-slash text-info"></i>
+                                Programming Language
+                            </h4>
+                            <div class="aurora-input-group">
+                                <select id="settingsProgrammingLanguage" class="aurora-select">
+                                    <option value="java">Java</option>
+                                    <option value="python">Python</option>
+                                    <option value="cpp">C++</option>
+                                    <option value="c">C</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="typescript">TypeScript</option>
+                                    <option value="go">Go</option>
+                                    <option value="rust">Rust</option>
+                                </select>
+                                <div class="aurora-border"></div>
+                            </div>
+                            <div class="settings-help-text">
+                                <i class="bi bi-info-circle"></i>
+                                AI will generate solutions in this programming language
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h4 class="settings-section-title">
+                                <i class="bi bi-toggles text-success"></i>
+                                Problem Solving Options
+                            </h4>
+                            <div class="settings-toggle-group">
+                                <div class="aurora-toggle">
+                                    <input type="checkbox" id="settingsSkipSolved" checked>
+                                    <label for="settingsSkipSolved">
+                                        <span class="toggle-slider"></span>
+                                        <span class="toggle-label">Skip Already Solved Problems</span>
+                                    </label>
+                                </div>
+                                <div class="aurora-toggle">
+                                    <input type="checkbox" id="settingsSkipPremium" checked>
+                                    <label for="settingsSkipPremium">
+                                        <span class="toggle-slider"></span>
+                                        <span class="toggle-label">Skip Premium Problems</span>
+                                    </label>
+                                </div>
+                                <div class="aurora-toggle">
+                                    <input type="checkbox" id="settingsVerboseLogging">
+                                    <label for="settingsVerboseLogging">
+                                        <span class="toggle-slider"></span>
+                                        <span class="toggle-label">Verbose Logging</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI Configuration -->
+                    <div class="settings-panel" id="ai-panel">
+                        <div class="settings-section">
+                            <h4 class="settings-section-title">
+                                <i class="bi bi-key text-warning"></i>
+                                API Configuration
+                            </h4>
+                            <div class="aurora-input-group">
+                                <input type="password" 
+                                       id="settingsApiKey" 
+                                       class="aurora-input" 
+                                       placeholder="Enter your Gemini API key">
+                                <div class="aurora-border"></div>
+                                <button type="button" id="toggleSettingsApiKey" class="aurora-input-btn">
+                                    <i class="bi bi-eye"></i>
+                                </button>
+                            </div>
+                            <div class="settings-help-text">
+                                <i class="bi bi-info-circle"></i>
+                                Get your API key from 
+                                <a href="#" id="openGeminiStudioLink" class="text-link">Google AI Studio</a>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h4 class="settings-section-title">
+                                <i class="bi bi-cpu text-primary"></i>
+                                AI Model Selection
+                            </h4>
+                            <div class="model-grid">
+                                <div class="model-card" data-model="gemini-1.5-flash">
+                                    <div class="model-icon">⚡</div>
+                                    <div class="model-info">
+                                        <div class="model-name">Gemini 1.5 Flash</div>
+                                        <div class="model-desc">Fast & Reliable</div>
+                                        <div class="model-limits">15 RPM • 1,500 RPD</div>
+                                    </div>
+                                    <div class="model-badge recommended">Recommended</div>
+                                </div>
+                                
+                                <div class="model-card" data-model="gemini-2.0-flash-exp">
+                                    <div class="model-icon">🚀</div>
+                                    <div class="model-info">
+                                        <div class="model-name">Gemini 2.0 Flash Experimental</div>
+                                        <div class="model-desc">Latest & Fastest</div>
+                                        <div class="model-limits">10 RPM • 50 RPD</div>
+                                    </div>
+                                    <div class="model-badge experimental">Experimental</div>
+                                </div>
+                                
+                                <div class="model-card" data-model="gemini-1.5-pro">
+                                    <div class="model-icon">🧠</div>
+                                    <div class="model-info">
+                                        <div class="model-name">Gemini 1.5 Pro</div>
+                                        <div class="model-desc">Most Accurate</div>
+                                        <div class="model-limits">2 RPM • 50 RPD</div>
+                                    </div>
+                                    <div class="model-badge pro">Pro</div>
+                                </div>
+                                
+                                <div class="model-card" data-model="gemini-pro">
+                                    <div class="model-icon">⭐</div>
+                                    <div class="model-info">
+                                        <div class="model-name">Gemini Pro</div>
+                                        <div class="model-desc">Stable & Reliable</div>
+                                        <div class="model-limits">60 RPM • 1,500 RPD</div>
+                                    </div>
+                                    <div class="model-badge stable">Stable</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <div class="api-test-section">
+                                <button id="testSettingsApiKey" class="aurora-btn primary">
+                                    <i class="bi bi-shield-check"></i>
+                                    Test API Key
+                                </button>
+                                <div id="apiTestResult" class="api-test-result d-none">
+                                    <div class="test-status"></div>
+                                    <div class="test-message"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Settings -->
+                    <div class="settings-panel" id="advanced-panel">
+                        <div class="settings-section">
+                            <h4 class="settings-section-title">
+                                <i class="bi bi-lightning text-danger"></i>
+                                Performance Options
+                            </h4>
+                            <div class="settings-toggle-group">
+                                <div class="aurora-toggle">
+                                    <input type="checkbox" id="settingsEnableOptimizations" checked>
+                                    <label for="settingsEnableOptimizations">
+                                        <span class="toggle-slider"></span>
+                                        <span class="toggle-label">Enable AI Optimizations</span>
+                                    </label>
+                                </div>
+                                <div class="aurora-toggle">
+                                    <input type="checkbox" id="settingsEnableFallback" checked>
+                                    <label for="settingsEnableFallback">
+                                        <span class="toggle-slider"></span>
+                                        <span class="toggle-label">Enable Model Fallback</span>
+                                    </label>
+                                </div>
+                                <div class="aurora-toggle">
+                                    <input type="checkbox" id="settingsAutoRetry" checked>
+                                    <label for="settingsAutoRetry">
+                                        <span class="toggle-slider"></span>
+                                        <span class="toggle-label">Auto Retry Failed Submissions</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="settings-section">
+                            <h4 class="settings-section-title">
+                                <i class="bi bi-database text-info"></i>
+                                Data Management
+                            </h4>
+                            <div class="data-management-grid">
+                                <button class="aurora-btn secondary" id="clearCacheBtn">
+                                    <i class="bi bi-trash"></i>
+                                    Clear Cache
+                                </button>
+                                <button class="aurora-btn secondary" id="exportSettingsBtn">
+                                    <i class="bi bi-download"></i>
+                                    Export Settings
+                                </button>
+                                <button class="aurora-btn secondary" id="importSettingsBtn">
+                                    <i class="bi bi-upload"></i>
+                                    Import Settings
+                                </button>
+                                <button class="aurora-btn warning" id="resetAllSettingsBtn">
+                                    <i class="bi bi-arrow-clockwise"></i>
+                                    Reset All
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-footer">
+                <div class="settings-status">
+                    <div id="settingsStatusIndicator" class="status-indicator success">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Settings saved automatically</span>
+                    </div>
+                </div>
+                <div class="settings-actions">
+                    <button class="aurora-btn secondary" id="cancelSettingsBtn">
+                        <i class="bi bi-x-circle"></i>
+                        Cancel
+                    </button>
+                    <button class="aurora-btn primary" id="saveSettingsBtn">
+                        <i class="bi bi-check-circle"></i>
+                        Save & Apply
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="renderer-new.js"></script>
+</body>
+</html>

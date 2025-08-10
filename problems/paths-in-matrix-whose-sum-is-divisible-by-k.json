@@ -1,0 +1,5 @@
+{
+  "problemName": "paths-in-matrix-whose-sum-is-divisible-by-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for paths-in-matrix-whose-sum-is-divisible-by-k\n        return 0;\n    }\n}"
+}

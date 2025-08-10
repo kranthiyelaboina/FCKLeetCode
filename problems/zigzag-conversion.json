@@ -1,0 +1,5 @@
+{
+  "problemName": "zigzag-conversion",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for zigzag-conversion\n        return 0;\n    }\n}"
+}

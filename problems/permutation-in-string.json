@@ -1,0 +1,5 @@
+{
+  "problemName": "permutation-in-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for permutation-in-string\n        return 0;\n    }\n}"
+}

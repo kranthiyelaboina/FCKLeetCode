@@ -1,0 +1,5 @@
+{
+  "problemName": "determine-color-of-a-chessboard-square",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for determine-color-of-a-chessboard-square\n        return 0;\n    }\n}"
+}

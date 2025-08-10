@@ -1,0 +1,5 @@
+{
+  "problemName": "map-sum-pairs",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for map-sum-pairs\n        return 0;\n    }\n}"
+}

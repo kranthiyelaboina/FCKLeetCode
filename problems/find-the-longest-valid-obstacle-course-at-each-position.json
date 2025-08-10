@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-longest-valid-obstacle-course-at-each-position",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-longest-valid-obstacle-course-at-each-position\n        return 0;\n    }\n}"
+}

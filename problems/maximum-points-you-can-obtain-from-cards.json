@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-points-you-can-obtain-from-cards",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-points-you-can-obtain-from-cards\n        return 0;\n    }\n}"
+}

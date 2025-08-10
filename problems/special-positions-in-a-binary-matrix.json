@@ -1,0 +1,5 @@
+{
+  "problemName": "special-positions-in-a-binary-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for special-positions-in-a-binary-matrix\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "problemName": "minimum-depth-of-binary-tree",
+  "language": "java",
+  "code": "import java.util.LinkedList;\nimport java.util.Queue;\nclass TreeNode {\n    int val;\n    TreeNode left;\n    TreeNode right;\n    TreeNode() {}\n    TreeNode(int val) { this.val = val; }\n    TreeNode(int val, TreeNode left, TreeNode right) {\n        this.val = val;\n        this.left = left;\n        this.right = right;\n    }\n}\nclass Solution {\n    public int minDepth(TreeNode root) {\n        if (root == null) {\n            return 0;\n        }\n        Queue<TreeNode> queue = new LinkedList<>();\n        queue.offer(root);\n        int depth = 1;\n        while (!queue.isEmpty()) {\n            int size = queue.size();\n            for (int i = 0; i < size; i++) {\n                TreeNode node = queue.poll();\n                if (node.left == null && node.right == null) {\n                    return depth;\n                }\n                if (node.left != null) {\n                    queue.offer(node.left);\n                }\n                if (node.right != null) {\n                    queue.offer(node.right);\n                }\n            }\n            depth++;\n        }\n        return depth;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:48:32.123Z"
+}

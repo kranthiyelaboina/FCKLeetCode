@@ -1,0 +1,5 @@
+{
+  "problemName": "insert-delete-getrandom-o1-duplicates-allowed",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for insert-delete-getrandom-o1-duplicates-allowed\n        return 0;\n    }\n}"
+}

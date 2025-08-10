@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-points-in-an-archery-competition",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-points-in-an-archery-competition\n        return 0;\n    }\n}"
+}

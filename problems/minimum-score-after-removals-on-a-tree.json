@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-score-after-removals-on-a-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-score-after-removals-on-a-tree\n        return 0;\n    }\n}"
+}

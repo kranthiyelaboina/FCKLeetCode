@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-white-tiles-after-covering-with-carpets",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-white-tiles-after-covering-with-carpets\n        return 0;\n    }\n}"
+}

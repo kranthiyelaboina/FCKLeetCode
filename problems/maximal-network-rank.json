@@ -1,0 +1,5 @@
+{
+  "problemName": "maximal-network-rank",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximal-network-rank\n        return 0;\n    }\n}"
+}

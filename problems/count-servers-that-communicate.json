@@ -1,0 +1,5 @@
+{
+  "problemName": "count-servers-that-communicate",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-servers-that-communicate\n        return 0;\n    }\n}"
+}

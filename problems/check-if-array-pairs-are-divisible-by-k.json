@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-array-pairs-are-divisible-by-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-array-pairs-are-divisible-by-k\n        return 0;\n    }\n}"
+}

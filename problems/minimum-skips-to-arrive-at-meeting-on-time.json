@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-skips-to-arrive-at-meeting-on-time",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-skips-to-arrive-at-meeting-on-time\n        return 0;\n    }\n}"
+}

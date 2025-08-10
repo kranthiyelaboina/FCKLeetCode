@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-score-of-a-path-between-two-cities",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-score-of-a-path-between-two-cities\n        return 0;\n    }\n}"
+}

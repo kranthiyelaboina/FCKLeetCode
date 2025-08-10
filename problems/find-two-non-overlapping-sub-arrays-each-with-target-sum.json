@@ -1,0 +1,5 @@
+{
+  "problemName": "find-two-non-overlapping-sub-arrays-each-with-target-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-two-non-overlapping-sub-arrays-each-with-target-sum\n        return 0;\n    }\n}"
+}

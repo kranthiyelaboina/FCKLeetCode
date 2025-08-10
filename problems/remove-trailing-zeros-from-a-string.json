@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-trailing-zeros-from-a-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-trailing-zeros-from-a-string\n        return 0;\n    }\n}"
+}

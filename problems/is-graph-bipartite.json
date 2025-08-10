@@ -1,0 +1,5 @@
+{
+  "problemName": "is-graph-bipartite",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for is-graph-bipartite\n        return 0;\n    }\n}"
+}

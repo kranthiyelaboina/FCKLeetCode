@@ -1,0 +1,5 @@
+{
+  "problemName": "maximize-sum-of-array-after-k-negations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximize-sum-of-array-after-k-negations\n        return 0;\n    }\n}"
+}

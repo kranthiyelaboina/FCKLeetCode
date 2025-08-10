@@ -1,0 +1,5 @@
+{
+  "problemName": "find-longest-special-substring-that-occurs-thrice-i",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-longest-special-substring-that-occurs-thrice-i\n        return 0;\n    }\n}"
+}

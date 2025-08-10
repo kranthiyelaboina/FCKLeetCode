@@ -1,0 +1,5 @@
+{
+  "problemName": "intersection-of-multiple-arrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for intersection-of-multiple-arrays\n        return 0;\n    }\n}"
+}

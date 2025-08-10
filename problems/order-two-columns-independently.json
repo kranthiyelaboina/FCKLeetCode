@@ -1,0 +1,5 @@
+{
+  "problemName": "order-two-columns-independently",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for order-two-columns-independently\n        return 0;\n    }\n}"
+}

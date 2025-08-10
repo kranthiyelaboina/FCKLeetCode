@@ -1,0 +1,5 @@
+{
+  "problemName": "form-smallest-number-from-two-digit-arrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for form-smallest-number-from-two-digit-arrays\n        return 0;\n    }\n}"
+}

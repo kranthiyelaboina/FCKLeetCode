@@ -1,0 +1,5 @@
+{
+  "problemName": "how-many-apples-can-you-put-into-the-basket",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for how-many-apples-can-you-put-into-the-basket\n        return 0;\n    }\n}"
+}

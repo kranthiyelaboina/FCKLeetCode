@@ -1,0 +1,5 @@
+{
+  "problemName": "construct-the-longest-new-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for construct-the-longest-new-string\n        return 0;\n    }\n}"
+}

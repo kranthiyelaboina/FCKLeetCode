@@ -1,0 +1,5 @@
+{
+  "problemName": "design-compressed-string-iterator",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for design-compressed-string-iterator\n        return 0;\n    }\n}"
+}

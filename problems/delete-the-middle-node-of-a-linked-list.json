@@ -1,0 +1,5 @@
+{
+  "problemName": "delete-the-middle-node-of-a-linked-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for delete-the-middle-node-of-a-linked-list\n        return 0;\n    }\n}"
+}

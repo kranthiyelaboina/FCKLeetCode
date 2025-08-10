@@ -1,0 +1,7 @@
+{
+  "problemName": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+  "language": "java",
+  "code": "class Solution {\n    public int maxProfit(int[] prices, int fee) {\n        int cash = 0;\n        int hold = -prices[0];\n        for (int i = 1; i < prices.length; i++) {\n            cash = Math.max(cash, hold + prices[i] - fee);\n            hold = Math.max(hold, cash - prices[i]);\n        }\n        return cash;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:07:12.926Z"
+}

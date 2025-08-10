@@ -1,0 +1,5 @@
+{
+  "problemName": "latest-time-by-replacing-hidden-digits",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for latest-time-by-replacing-hidden-digits\n        return 0;\n    }\n}"
+}

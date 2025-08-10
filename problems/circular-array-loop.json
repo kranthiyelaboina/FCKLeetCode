@@ -1,0 +1,5 @@
+{
+  "problemName": "circular-array-loop",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for circular-array-loop\n        return 0;\n    }\n}"
+}

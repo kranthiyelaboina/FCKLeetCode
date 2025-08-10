@@ -1,0 +1,5 @@
+{
+  "problemName": "append-k-integers-with-minimal-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for append-k-integers-with-minimal-sum\n        return 0;\n    }\n}"
+}

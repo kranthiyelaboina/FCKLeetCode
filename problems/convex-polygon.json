@@ -1,0 +1,7 @@
+{
+  "problemName": "convex-polygon",
+  "language": "java",
+  "code": "class Solution {\n    public boolean isConvex(int[][] points) {\n        int n = points.length;\n        if (n < 3) return false;\n        int crossProductSign = 0;\n        for (int i = 0; i < n; i++) {\n            int p1x = points[i][0];\n            int p1y = points[i][1];\n            int p2x = points[(i + 1) % n][0];\n            int p2y = points[(i + 1) % n][1];\n            int p3x = points[(i + 2) % n][0];\n            int p3y = points[(i + 2) % n][1];\n            int crossProduct = (p2x - p1x) * (p3y - p2y) - (p2y - p1y) * (p3x - p2x);\n            if (crossProduct != 0) {\n                int currentSign = crossProduct > 0 ? 1 : -1;\n                if (crossProductSign == 0) {\n                    crossProductSign = currentSign;\n                } else if (crossProductSign != currentSign) {\n                    return false;\n                }\n            }\n        }\n        return true;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:15:23.826Z"
+}

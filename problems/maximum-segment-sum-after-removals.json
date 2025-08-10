@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-segment-sum-after-removals",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-segment-sum-after-removals\n        return 0;\n    }\n}"
+}

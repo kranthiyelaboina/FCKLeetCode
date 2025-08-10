@@ -1,0 +1,5 @@
+{
+  "problemName": "neither-minimum-nor-maximum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for neither-minimum-nor-maximum\n        return 0;\n    }\n}"
+}

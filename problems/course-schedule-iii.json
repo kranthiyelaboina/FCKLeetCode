@@ -1,0 +1,7 @@
+{
+  "problemName": "course-schedule-iii",
+  "language": "java",
+  "code": "class Solution {\n    public int scheduleCourse(int[][] courses) {\n        Arrays.sort(courses, (a, b) -> a[1] - b[1]);\n        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());\n        int time = 0;\n        for (int[] course : courses) {\n            int duration = course[0];\n            int lastDay = course[1];\n            if (time + duration <= lastDay) {\n                time += duration;\n                pq.offer(duration);\n            } else if (!pq.isEmpty() && pq.peek() > duration) {\n                time -= pq.poll() - duration;\n                pq.offer(duration);\n            }\n        }\n        return pq.size();\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:51:07.760Z"
+}

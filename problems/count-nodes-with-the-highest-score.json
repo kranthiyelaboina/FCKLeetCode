@@ -1,0 +1,5 @@
+{
+  "problemName": "count-nodes-with-the-highest-score",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-nodes-with-the-highest-score\n        return 0;\n    }\n}"
+}

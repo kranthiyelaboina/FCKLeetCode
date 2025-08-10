@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-increments-on-subarrays-to-form-a-target-array\n        return 0;\n    }\n}"
+}

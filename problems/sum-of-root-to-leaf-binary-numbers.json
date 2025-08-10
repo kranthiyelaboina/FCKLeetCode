@@ -1,0 +1,5 @@
+{
+  "problemName": "sum-of-root-to-leaf-binary-numbers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sum-of-root-to-leaf-binary-numbers\n        return 0;\n    }\n}"
+}

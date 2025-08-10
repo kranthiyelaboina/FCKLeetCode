@@ -1,0 +1,7 @@
+{
+  "problemName": "number-of-beautiful-integers-in-the-range",
+  "language": "java",
+  "code": "class Solution {\n    public int numberOfBeautifulIntegers(int low, int high, int k) {\n        return countBeautiful(high, k) - countBeautiful(low - 1, k);\n    }\n    private int countBeautiful(int num, int k) {\n        String s = String.valueOf(num);\n        int n = s.length();\n        int[][][] dp = new int[n + 1][k][2];\n        for (int i = 0; i <= n; i++) {\n            for (int j = 0; j < k; j++) {\n                dp[i][j][0] = dp[i][j][1] = -1;\n            }\n        }\n        return solve(s, 0, 0, 1, k, dp);\n    }\n    private int solve(String s, int index, int rem, int tight, int k, int[][][] dp) {\n        if (index == s.length()) {\n            return rem == 0 ? 1 : 0;\n        }\n        if (dp[index][rem][tight] != -1) {\n            return dp[index][rem][tight];\n        }\n        int ub = tight == 1 ? s.charAt(index) - '0' : 9;\n        int ans = 0;\n        for (int digit = 0; digit <= ub; digit++) {\n            int newRem = (rem * 10 + digit) % k;\n            int newTight = tight == 1 && digit == ub ? 1 : 0;\n            ans += solve(s, index + 1, newRem, newTight, k, dp);\n        }\n        return dp[index][rem][tight] = ans;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:49:21.669Z"
+}

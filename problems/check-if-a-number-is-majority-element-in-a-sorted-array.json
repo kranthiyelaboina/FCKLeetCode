@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-a-number-is-majority-element-in-a-sorted-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-a-number-is-majority-element-in-a-sorted-array\n        return 0;\n    }\n}"
+}

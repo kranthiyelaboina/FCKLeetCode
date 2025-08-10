@@ -1,0 +1,5 @@
+{
+  "problemName": "uncommon-words-from-two-sentences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for uncommon-words-from-two-sentences\n        return 0;\n    }\n}"
+}

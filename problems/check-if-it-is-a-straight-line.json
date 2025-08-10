@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-it-is-a-straight-line",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-it-is-a-straight-line\n        return 0;\n    }\n}"
+}

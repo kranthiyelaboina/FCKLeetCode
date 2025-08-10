@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-nice-substring",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-nice-substring\n        return 0;\n    }\n}"
+}

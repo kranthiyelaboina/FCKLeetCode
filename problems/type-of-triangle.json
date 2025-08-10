@@ -1,0 +1,5 @@
+{
+  "problemName": "type-of-triangle",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for type-of-triangle\n        return 0;\n    }\n}"
+}

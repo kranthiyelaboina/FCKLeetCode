@@ -1,0 +1,5 @@
+{
+  "problemName": "sum-of-floored-pairs",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sum-of-floored-pairs\n        return 0;\n    }\n}"
+}

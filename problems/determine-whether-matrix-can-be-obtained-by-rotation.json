@@ -1,0 +1,5 @@
+{
+  "problemName": "determine-whether-matrix-can-be-obtained-by-rotation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for determine-whether-matrix-can-be-obtained-by-rotation\n        return 0;\n    }\n}"
+}

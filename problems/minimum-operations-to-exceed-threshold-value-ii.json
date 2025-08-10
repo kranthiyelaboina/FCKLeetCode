@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-operations-to-exceed-threshold-value-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-operations-to-exceed-threshold-value-ii\n        return 0;\n    }\n}"
+}

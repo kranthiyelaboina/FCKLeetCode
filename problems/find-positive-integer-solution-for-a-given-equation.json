@@ -1,0 +1,5 @@
+{
+  "problemName": "find-positive-integer-solution-for-a-given-equation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-positive-integer-solution-for-a-given-equation\n        return 0;\n    }\n}"
+}

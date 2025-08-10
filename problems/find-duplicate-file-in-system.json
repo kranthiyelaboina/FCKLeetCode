@@ -1,0 +1,5 @@
+{
+  "problemName": "find-duplicate-file-in-system",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-duplicate-file-in-system\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "split-the-array-to-make-coprime-products",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for split-the-array-to-make-coprime-products\n        return 0;\n    }\n}"
+}

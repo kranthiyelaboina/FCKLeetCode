@@ -1,0 +1,5 @@
+{
+  "problemName": "the-employee-that-worked-on-the-longest-task",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for the-employee-that-worked-on-the-longest-task\n        return 0;\n    }\n}"
+}

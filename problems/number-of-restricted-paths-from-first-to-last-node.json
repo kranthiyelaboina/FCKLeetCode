@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-restricted-paths-from-first-to-last-node",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-restricted-paths-from-first-to-last-node\n        return 0;\n    }\n}"
+}

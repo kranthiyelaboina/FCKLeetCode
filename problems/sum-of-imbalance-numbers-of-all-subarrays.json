@@ -1,0 +1,5 @@
+{
+  "problemName": "sum-of-imbalance-numbers-of-all-subarrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sum-of-imbalance-numbers-of-all-subarrays\n        return 0;\n    }\n}"
+}

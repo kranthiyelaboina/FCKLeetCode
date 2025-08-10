@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-number-has-equal-digit-count-and-digit-value",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-number-has-equal-digit-count-and-digit-value\n        return 0;\n    }\n}"
+}

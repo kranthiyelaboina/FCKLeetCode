@@ -1,0 +1,5 @@
+{
+  "problemName": "design-an-ordered-stream",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for design-an-ordered-stream\n        return 0;\n    }\n}"
+}

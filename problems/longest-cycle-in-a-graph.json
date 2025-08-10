@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-cycle-in-a-graph",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-cycle-in-a-graph\n        return 0;\n    }\n}"
+}

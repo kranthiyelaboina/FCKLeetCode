@@ -1,0 +1,5 @@
+{
+  "problemName": "kth-smallest-product-of-two-sorted-arrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for kth-smallest-product-of-two-sorted-arrays\n        return 0;\n    }\n}"
+}

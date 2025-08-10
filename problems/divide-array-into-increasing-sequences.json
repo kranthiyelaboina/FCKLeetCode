@@ -1,0 +1,5 @@
+{
+  "problemName": "divide-array-into-increasing-sequences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for divide-array-into-increasing-sequences\n        return 0;\n    }\n}"
+}

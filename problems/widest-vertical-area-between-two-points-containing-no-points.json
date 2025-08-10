@@ -1,0 +1,5 @@
+{
+  "problemName": "widest-vertical-area-between-two-points-containing-no-points",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for widest-vertical-area-between-two-points-containing-no-points\n        return 0;\n    }\n}"
+}

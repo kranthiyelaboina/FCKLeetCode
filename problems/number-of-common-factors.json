@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-common-factors",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-common-factors\n        return 0;\n    }\n}"
+}

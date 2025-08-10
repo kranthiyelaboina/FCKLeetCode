@@ -1,0 +1,5 @@
+{
+  "problemName": "report-contiguous-dates",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for report-contiguous-dates\n        return 0;\n    }\n}"
+}

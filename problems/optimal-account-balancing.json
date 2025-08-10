@@ -1,0 +1,7 @@
+{
+  "problemName": "optimal-account-balancing",
+  "language": "java",
+  "code": "import java.util.HashMap;\nimport java.util.Map;\nclass Solution {\n    public int minTransfers(int[][] transactions) {\n        Map<Integer, Integer> debt = new HashMap<>();\n        for (int[] transaction : transactions) {\n            int from = transaction[0];\n            int to = transaction[1];\n            int amount = transaction[2];\n            debt.put(from, debt.getOrDefault(from, 0) - amount);\n            debt.put(to, debt.getOrDefault(to, 0) + amount);\n        }\n        return settle(0, debt.values().stream().filter(d -> d != 0).toList());\n    }\n    private int settle(int start, java.util.List<Integer> debts) {\n        while (start < debts.size() && debts.get(start) == 0) {\n            start++;\n        }\n        if (start == debts.size()) {\n            return 0;\n        }\n        int minTransfers = Integer.MAX_VALUE;\n        for (int i = start + 1; i < debts.size(); i++) {\n            if (debts.get(i) * debts.get(start) < 0) {\n                int temp = debts.get(i);\n                debts.set(i, debts.get(i) + debts.get(start));\n                minTransfers = Math.min(minTransfers, 1 + settle(start + 1, debts));\n                debts.set(i, temp);\n            }\n        }\n        return minTransfers;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T14:36:14.742Z"
+}

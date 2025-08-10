@@ -1,0 +1,5 @@
+{
+  "problemName": "calculate-money-in-leetcode-bank",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for calculate-money-in-leetcode-bank\n        return 0;\n    }\n}"
+}

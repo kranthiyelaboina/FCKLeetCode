@@ -1,0 +1,5 @@
+{
+  "problemName": "average-value-of-even-numbers-that-are-divisible-by-three",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for average-value-of-even-numbers-that-are-divisible-by-three\n        return 0;\n    }\n}"
+}

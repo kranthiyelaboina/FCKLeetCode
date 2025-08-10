@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-money-required-before-transactions",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-money-required-before-transactions\n        return 0;\n    }\n}"
+}

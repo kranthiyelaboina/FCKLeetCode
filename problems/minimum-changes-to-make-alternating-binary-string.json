@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-changes-to-make-alternating-binary-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-changes-to-make-alternating-binary-string\n        return 0;\n    }\n}"
+}

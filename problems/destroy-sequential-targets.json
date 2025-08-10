@@ -1,0 +1,5 @@
+{
+  "problemName": "destroy-sequential-targets",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for destroy-sequential-targets\n        return 0;\n    }\n}"
+}

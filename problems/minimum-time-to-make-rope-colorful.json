@@ -1,0 +1,7 @@
+{
+  "problemName": "minimum-time-to-make-rope-colorful",
+  "language": "java",
+  "code": "class Solution {\n    public int minCost(String colors, int[] neededTime) {\n        int totalCost = 0;\n        int i = 0;\n        while (i < colors.length() - 1) {\n            if (colors.charAt(i) == colors.charAt(i + 1)) {\n                int j = i;\n                int sum = 0;\n                int maxTime = 0;\n                while (j < colors.length() && colors.charAt(i) == colors.charAt(j)) {\n                    sum += neededTime[j];\n                    maxTime = Math.max(maxTime, neededTime[j]);\n                    j++;\n                }\n                totalCost += (sum - maxTime);\n                i = j;\n            } else {\n                i++;\n            }\n        }\n        return totalCost;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:10:50.481Z"
+}

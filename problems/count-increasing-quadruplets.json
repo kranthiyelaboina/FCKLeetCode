@@ -1,0 +1,5 @@
+{
+  "problemName": "count-increasing-quadruplets",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-increasing-quadruplets\n        return 0;\n    }\n}"
+}

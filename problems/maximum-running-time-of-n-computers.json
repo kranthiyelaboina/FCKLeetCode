@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-running-time-of-n-computers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-running-time-of-n-computers\n        return 0;\n    }\n}"
+}

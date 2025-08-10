@@ -1,0 +1,5 @@
+{
+  "problemName": "maximize-score-after-n-operations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximize-score-after-n-operations\n        return 0;\n    }\n}"
+}

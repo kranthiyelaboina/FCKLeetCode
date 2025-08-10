@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-subarray-sum-with-one-deletion",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-subarray-sum-with-one-deletion\n        return 0;\n    }\n}"
+}

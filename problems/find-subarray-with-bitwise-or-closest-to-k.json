@@ -1,0 +1,5 @@
+{
+  "problemName": "find-subarray-with-bitwise-or-closest-to-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-subarray-with-bitwise-or-closest-to-k\n        return 0;\n    }\n}"
+}

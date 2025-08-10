@@ -1,0 +1,5 @@
+{
+  "problemName": "determine-if-two-events-have-conflict",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for determine-if-two-events-have-conflict\n        return 0;\n    }\n}"
+}

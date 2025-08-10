@@ -1,0 +1,5 @@
+{
+  "problemName": "minimize-product-sum-of-two-arrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimize-product-sum-of-two-arrays\n        return 0;\n    }\n}"
+}

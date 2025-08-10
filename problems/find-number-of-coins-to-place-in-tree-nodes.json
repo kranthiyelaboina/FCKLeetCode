@@ -1,0 +1,5 @@
+{
+  "problemName": "find-number-of-coins-to-place-in-tree-nodes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-number-of-coins-to-place-in-tree-nodes\n        return 0;\n    }\n}"
+}

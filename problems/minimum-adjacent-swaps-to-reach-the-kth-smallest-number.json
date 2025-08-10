@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-adjacent-swaps-to-reach-the-kth-smallest-number\n        return 0;\n    }\n}"
+}

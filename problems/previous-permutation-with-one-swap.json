@@ -1,0 +1,5 @@
+{
+  "problemName": "previous-permutation-with-one-swap",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for previous-permutation-with-one-swap\n        return 0;\n    }\n}"
+}

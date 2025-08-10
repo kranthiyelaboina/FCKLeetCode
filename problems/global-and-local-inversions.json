@@ -1,0 +1,5 @@
+{
+  "problemName": "global-and-local-inversions",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for global-and-local-inversions\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "clone-binary-tree-with-random-pointer",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for clone-binary-tree-with-random-pointer\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "shortest-distance-to-a-character",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shortest-distance-to-a-character\n        return 0;\n    }\n}"
+}

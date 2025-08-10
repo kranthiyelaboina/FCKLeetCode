@@ -1,0 +1,5 @@
+{
+  "problemName": "equal-sum-arrays-with-minimum-number-of-operations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for equal-sum-arrays-with-minimum-number-of-operations\n        return 0;\n    }\n}"
+}

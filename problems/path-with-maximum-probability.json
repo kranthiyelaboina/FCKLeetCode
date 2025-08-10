@@ -1,0 +1,5 @@
+{
+  "problemName": "path-with-maximum-probability",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for path-with-maximum-probability\n        return 0;\n    }\n}"
+}

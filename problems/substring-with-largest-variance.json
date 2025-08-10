@@ -1,0 +1,5 @@
+{
+  "problemName": "substring-with-largest-variance",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for substring-with-largest-variance\n        return 0;\n    }\n}"
+}

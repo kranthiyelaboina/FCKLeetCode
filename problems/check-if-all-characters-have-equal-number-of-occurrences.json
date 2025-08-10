@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-all-characters-have-equal-number-of-occurrences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-all-characters-have-equal-number-of-occurrences\n        return 0;\n    }\n}"
+}

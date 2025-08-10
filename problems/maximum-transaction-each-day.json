@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-transaction-each-day",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-transaction-each-day\n        return 0;\n    }\n}"
+}

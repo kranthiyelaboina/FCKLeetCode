@@ -1,0 +1,5 @@
+{
+  "problemName": "categorize-box-according-to-criteria",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for categorize-box-according-to-criteria\n        return 0;\n    }\n}"
+}

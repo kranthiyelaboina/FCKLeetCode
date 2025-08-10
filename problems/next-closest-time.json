@@ -1,0 +1,5 @@
+{
+  "problemName": "next-closest-time",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for next-closest-time\n        return 0;\n    }\n}"
+}

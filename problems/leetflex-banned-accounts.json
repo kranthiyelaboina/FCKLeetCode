@@ -1,0 +1,5 @@
+{
+  "problemName": "leetflex-banned-accounts",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for leetflex-banned-accounts\n        return 0;\n    }\n}"
+}

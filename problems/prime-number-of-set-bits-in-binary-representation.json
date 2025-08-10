@@ -1,0 +1,5 @@
+{
+  "problemName": "prime-number-of-set-bits-in-binary-representation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for prime-number-of-set-bits-in-binary-representation\n        return 0;\n    }\n}"
+}

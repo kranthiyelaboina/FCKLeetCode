@@ -1,0 +1,7 @@
+{
+  "problemName": "maximum-number-of-groups-with-increasing-length",
+  "language": "java",
+  "code": "class Solution {\n    public int maxIncreasingGroups(List<Integer> usageLimits) {\n        Collections.sort(usageLimits);\n        long sum = 0;\n        int count = 0;\n        for (int limit : usageLimits) {\n            sum += limit;\n            if (sum >= (long)(count + 1) * (count + 2) / 2) {\n                count++;\n            }\n        }\n        return count;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:19:25.793Z"
+}

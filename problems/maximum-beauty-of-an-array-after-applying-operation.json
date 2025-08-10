@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-beauty-of-an-array-after-applying-operation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-beauty-of-an-array-after-applying-operation\n        return 0;\n    }\n}"
+}

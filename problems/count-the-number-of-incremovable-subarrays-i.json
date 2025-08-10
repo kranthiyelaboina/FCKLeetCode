@@ -1,0 +1,5 @@
+{
+  "problemName": "count-the-number-of-incremovable-subarrays-i",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-the-number-of-incremovable-subarrays-i\n        return 0;\n    }\n}"
+}

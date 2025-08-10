@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-enemy-forts-that-can-be-captured",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-enemy-forts-that-can-be-captured\n        return 0;\n    }\n}"
+}

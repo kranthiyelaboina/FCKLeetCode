@@ -1,0 +1,5 @@
+{
+  "problemName": "text-justification",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for text-justification\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "neighboring-bitwise-xor",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for neighboring-bitwise-xor\n        return 0;\n    }\n}"
+}

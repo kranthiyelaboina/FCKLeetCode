@@ -1,0 +1,5 @@
+{
+  "problemName": "customer-placing-the-largest-number-of-orders",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for customer-placing-the-largest-number-of-orders\n        return 0;\n    }\n}"
+}

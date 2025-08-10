@@ -1,0 +1,5 @@
+{
+  "problemName": "design-add-and-search-words-data-structure",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for design-add-and-search-words-data-structure\n        return 0;\n    }\n}"
+}

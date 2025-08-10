@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-vertices-to-reach-all-nodes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-vertices-to-reach-all-nodes\n        return 0;\n    }\n}"
+}

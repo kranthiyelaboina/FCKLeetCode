@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-consecutive-floors-without-special-floors",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-consecutive-floors-without-special-floors\n        return 0;\n    }\n}"
+}

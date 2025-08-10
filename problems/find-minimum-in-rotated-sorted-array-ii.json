@@ -1,0 +1,7 @@
+{
+  "problemName": "find-minimum-in-rotated-sorted-array-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int findMin(int[] nums) {\n        int left = 0;\n        int right = nums.length - 1;\n        while (left < right) {\n            int mid = left + (right - left) / 2;\n            if (nums[mid] > nums[right]) {\n                left = mid + 1;\n            } else if (nums[mid] < nums[right]) {\n                right = mid;\n            } else {\n                right--;\n            }\n        }\n        return nums[left];\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:57:22.111Z"
+}

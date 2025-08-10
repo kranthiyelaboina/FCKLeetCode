@@ -1,0 +1,5 @@
+{
+  "problemName": "analyze-user-website-visit-pattern",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for analyze-user-website-visit-pattern\n        return 0;\n    }\n}"
+}

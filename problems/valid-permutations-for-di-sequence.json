@@ -1,0 +1,5 @@
+{
+  "problemName": "valid-permutations-for-di-sequence",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for valid-permutations-for-di-sequence\n        return 0;\n    }\n}"
+}

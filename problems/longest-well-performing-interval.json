@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-well-performing-interval",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-well-performing-interval\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "partition-equal-subset-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for partition-equal-subset-sum\n        return 0;\n    }\n}"
+}

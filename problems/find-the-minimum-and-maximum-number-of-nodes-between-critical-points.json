@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-minimum-and-maximum-number-of-nodes-between-critical-points\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "problemName": "median-of-two-sorted-arrays",
+  "language": "java",
+  "code": "class Solution {\n    public double findMedianSortedArrays(int[] nums1, int[] nums2) {\n        int m = nums1.length;\n        int n = nums2.length;\n        if (m > n) {\n            return findMedianSortedArrays(nums2, nums1);\n        }\n        int low = 0;\n        int high = m;\n        while (low <= high) {\n            int partitionX = (low + high) / 2;\n            int partitionY = (m + n + 1) / 2 - partitionX;\n            int maxLeftX = partitionX == 0 ? Integer.MIN_VALUE : nums1[partitionX - 1];\n            int minRightX = partitionX == m ? Integer.MAX_VALUE : nums1[partitionX];\n            int maxLeftY = partitionY == 0 ? Integer.MIN_VALUE : nums2[partitionY - 1];\n            int minRightY = partitionY == n ? Integer.MAX_VALUE : nums2[partitionY];\n            if (maxLeftX <= minRightY && maxLeftY <= minRightX) {\n                if ((m + n) % 2 == 0) {\n                    return (double) (Math.max(maxLeftX, maxLeftY) + Math.min(minRightX, minRightY)) / 2;\n                } else {\n                    return (double) Math.max(maxLeftX, maxLeftY);\n                }\n            } else if (maxLeftX > minRightY) {\n                high = partitionX - 1;\n            } else {\n                low = partitionX + 1;\n            }\n        }\n        throw new IllegalArgumentException();\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:55:31.552Z"
+}

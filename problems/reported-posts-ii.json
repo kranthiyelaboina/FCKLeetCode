@@ -1,0 +1,7 @@
+{
+  "problemName": "reported-posts-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int[] reportCounts(int[] reports) {\n        int n = reports.length;\n        int[] counts = new int[n];\n        for (int i = 0; i < n; i++) {\n            counts[i] = 0;\n        }\n        for (int i = 0; i < n; i++) {\n            if (reports[i] >= 0) {\n                counts[reports[i]]++;\n            }\n        }\n        return counts;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:49:10.820Z"
+}

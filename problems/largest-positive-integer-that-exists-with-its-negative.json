@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-positive-integer-that-exists-with-its-negative",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-positive-integer-that-exists-with-its-negative\n        return 0;\n    }\n}"
+}

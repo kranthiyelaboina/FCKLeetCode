@@ -1,0 +1,5 @@
+{
+  "problemName": "smallest-number-in-infinite-set",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for smallest-number-in-infinite-set\n        return 0;\n    }\n}"
+}

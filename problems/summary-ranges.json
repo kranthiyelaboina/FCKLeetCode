@@ -1,0 +1,5 @@
+{
+  "problemName": "summary-ranges",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for summary-ranges\n        return 0;\n    }\n}"
+}

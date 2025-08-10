@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-taps-to-open-to-water-a-garden",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-taps-to-open-to-water-a-garden\n        return 0;\n    }\n}"
+}

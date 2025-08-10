@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-xor-with-an-element-from-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-xor-with-an-element-from-array\n        return 0;\n    }\n}"
+}

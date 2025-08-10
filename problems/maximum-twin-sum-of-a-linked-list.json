@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-twin-sum-of-a-linked-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-twin-sum-of-a-linked-list\n        return 0;\n    }\n}"
+}

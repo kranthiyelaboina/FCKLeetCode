@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-a-string-is-an-acronym-of-words",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-a-string-is-an-acronym-of-words\n        return 0;\n    }\n}"
+}

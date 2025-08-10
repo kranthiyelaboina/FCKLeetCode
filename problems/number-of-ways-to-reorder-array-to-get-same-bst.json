@@ -1,0 +1,7 @@
+{
+  "problemName": "number-of-ways-to-reorder-array-to-get-same-bst",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: AI generation failed for Number Of Ways To Reorder Array To Get Same Bst\n        // Please implement manually\n        return 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:45:27.874Z"
+}

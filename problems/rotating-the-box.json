@@ -1,0 +1,7 @@
+{
+  "problemName": "rotating-the-box",
+  "language": "java",
+  "code": "class Solution {\n    public char[][] rotateTheBox(char[][] box) {\n        int m = box.length;\n        int n = box[0].length;\n        char[][] rotated = new char[n][m];\n        for (int i = 0; i < n; i++) {\n            Arrays.fill(rotated[i], '.');\n        }\n        for (int i = 0; i < m; i++) {\n            int j = n - 1;\n            for (int k = n - 1; k >= 0; k--) {\n                if (box[i][k] == '#') {\n                    rotated[k][m - 1 - i] = '#';\n                    j--;\n                } else if (box[i][k] == '*') {\n                    rotated[k][m - 1 - i] = '*';\n                    j = k - 1;\n                }\n            }\n        }\n        return rotated;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:07:57.102Z"
+}

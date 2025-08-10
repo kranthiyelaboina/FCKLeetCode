@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-all-adjacent-duplicates-in-string-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-all-adjacent-duplicates-in-string-ii\n        return 0;\n    }\n}"
+}

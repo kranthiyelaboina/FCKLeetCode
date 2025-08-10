@@ -1,0 +1,5 @@
+{
+  "problemName": "guess-number-higher-or-lower",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for guess-number-higher-or-lower\n        return 0;\n    }\n}"
+}

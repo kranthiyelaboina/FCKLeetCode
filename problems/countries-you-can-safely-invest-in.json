@@ -1,0 +1,5 @@
+{
+  "problemName": "countries-you-can-safely-invest-in",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for countries-you-can-safely-invest-in\n        return 0;\n    }\n}"
+}

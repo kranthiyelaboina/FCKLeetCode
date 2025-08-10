@@ -1,0 +1,5 @@
+{
+  "problemName": "count-odd-numbers-in-an-interval-range",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-odd-numbers-in-an-interval-range\n        return 0;\n    }\n}"
+}

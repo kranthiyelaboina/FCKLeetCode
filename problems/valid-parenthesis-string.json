@@ -1,0 +1,5 @@
+{
+  "problemName": "valid-parenthesis-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for valid-parenthesis-string\n        return 0;\n    }\n}"
+}

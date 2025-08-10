@@ -1,0 +1,5 @@
+{
+  "problemName": "count-the-number-of-square-free-subsets",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-the-number-of-square-free-subsets\n        return 0;\n    }\n}"
+}

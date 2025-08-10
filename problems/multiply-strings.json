@@ -1,0 +1,5 @@
+{
+  "problemName": "multiply-strings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for multiply-strings\n        return 0;\n    }\n}"
+}

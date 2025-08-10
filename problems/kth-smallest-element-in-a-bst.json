@@ -1,0 +1,5 @@
+{
+  "problemName": "kth-smallest-element-in-a-bst",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for kth-smallest-element-in-a-bst\n        return 0;\n    }\n}"
+}

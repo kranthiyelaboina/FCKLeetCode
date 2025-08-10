@@ -1,0 +1,5 @@
+{
+  "problemName": "count-subarrays-with-score-less-than-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-subarrays-with-score-less-than-k\n        return 0;\n    }\n}"
+}

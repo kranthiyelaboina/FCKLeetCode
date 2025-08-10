@@ -1,0 +1,7 @@
+{
+  "problemName": "find-longest-special-substring-that-occurs-thrice-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solve() {\n        // Intelligent fallback for Find Longest Special Substring That Occurs Thrice Ii\n        // This is a placeholder that needs manual implementation\n        return -1;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:15:13.606Z"
+}

@@ -1,0 +1,7 @@
+{
+  "problemName": "k-th-symbol-in-grammar",
+  "language": "java",
+  "code": "class Solution {\n    public int kthGrammar(int n, int k) {\n        if (n == 1 && k == 1) return 0;\n        int len = 1 << (n - 2);\n        if (k <= len) {\n            return kthGrammar(n - 1, k);\n        } else {\n            return 1 - kthGrammar(n - 1, k - len);\n        }\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-10T01:06:19.913Z"
+}

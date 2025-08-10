@@ -1,0 +1,5 @@
+{
+  "problemName": "the-number-of-weak-characters-in-the-game",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for the-number-of-weak-characters-in-the-game\n        return 0;\n    }\n}"
+}

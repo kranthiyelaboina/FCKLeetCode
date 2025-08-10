@@ -1,0 +1,5 @@
+{
+  "problemName": "count-pairs-whose-sum-is-less-than-target",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-pairs-whose-sum-is-less-than-target\n        return 0;\n    }\n}"
+}

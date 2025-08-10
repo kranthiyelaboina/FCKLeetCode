@@ -1,0 +1,5 @@
+{
+  "problemName": "construct-target-array-with-multiple-sums",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for construct-target-array-with-multiple-sums\n        return 0;\n    }\n}"
+}

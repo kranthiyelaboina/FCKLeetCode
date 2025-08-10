@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-word-in-dictionary-through-deleting",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-word-in-dictionary-through-deleting\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "find-common-elements-between-two-arrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-common-elements-between-two-arrays\n        return 0;\n    }\n}"
+}

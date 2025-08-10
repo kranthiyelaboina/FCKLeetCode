@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-bags-with-full-capacity-of-rocks",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-bags-with-full-capacity-of-rocks\n        return 0;\n    }\n}"
+}

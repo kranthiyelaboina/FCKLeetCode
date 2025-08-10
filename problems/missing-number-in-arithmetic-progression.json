@@ -1,0 +1,5 @@
+{
+  "problemName": "missing-number-in-arithmetic-progression",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for missing-number-in-arithmetic-progression\n        return 0;\n    }\n}"
+}

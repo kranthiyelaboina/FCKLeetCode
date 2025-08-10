@@ -1,0 +1,7 @@
+{
+  "problemName": "count-prefixes-of-a-given-string",
+  "language": "java",
+  "code": "class Solution {\n    public int countPrefixes(String[] words, String s) {\n        int count = 0;\n        for (String word : words) {\n            if (s.startsWith(word)) {\n                count++;\n            }\n        }\n        return count;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:54:08.193Z"
+}

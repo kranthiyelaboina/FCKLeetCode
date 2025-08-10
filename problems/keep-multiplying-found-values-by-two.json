@@ -1,0 +1,5 @@
+{
+  "problemName": "keep-multiplying-found-values-by-two",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for keep-multiplying-found-values-by-two\n        return 0;\n    }\n}"
+}

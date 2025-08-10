@@ -1,0 +1,7 @@
+{
+  "problemName": "timeout-cancellation",
+  "language": "java",
+  "code": "class Solution {\n    public int[] twoSum(int[] nums, int target) {\n        Map<Integer, Integer> map = new HashMap<>();\n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            if (map.containsKey(complement)) {\n                return new int[] { map.get(complement), i };\n            }\n            map.put(nums[i], i);\n        }\n        return new int[] {};\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:15:52.734Z"
+}

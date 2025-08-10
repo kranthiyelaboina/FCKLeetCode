@@ -1,0 +1,7 @@
+{
+  "problemName": "largest-bst-subtree",
+  "language": "java",
+  "code": "class Solution {\n    private int maxSize = 0;\n    private int[] largestBSTSubtreeHelper(TreeNode root) {\n        if (root == null) {\n            return new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE, 0};\n        }\n        int[] left = largestBSTSubtreeHelper(root.left);\n        int[] right = largestBSTSubtreeHelper(root.right);\n        if (root.val > left[1] && root.val < right[0]) {\n            int size = left[2] + right[2] + 1;\n            maxSize = Math.max(maxSize, size);\n            return new int[]{Math.min(root.val, left[0]), Math.max(root.val, right[1]), size};\n        } else {\n            return new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE, 0};\n        }\n    }\n    public int largestBSTSubtree(TreeNode root) {\n        maxSize = 0;\n        largestBSTSubtreeHelper(root);\n        return maxSize;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T16:31:43.589Z"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "unique-length-3-palindromic-subsequences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for unique-length-3-palindromic-subsequences\n        return 0;\n    }\n}"
+}

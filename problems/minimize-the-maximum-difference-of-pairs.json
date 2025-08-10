@@ -1,0 +1,5 @@
+{
+  "problemName": "minimize-the-maximum-difference-of-pairs",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimize-the-maximum-difference-of-pairs\n        return 0;\n    }\n}"
+}

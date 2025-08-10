@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-arithmetic-triplets",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-arithmetic-triplets\n        return 0;\n    }\n}"
+}

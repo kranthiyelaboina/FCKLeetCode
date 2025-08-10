@@ -1,0 +1,5 @@
+{
+  "problemName": "managers-with-at-least-5-direct-reports",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for managers-with-at-least-5-direct-reports\n        return 0;\n    }\n}"
+}

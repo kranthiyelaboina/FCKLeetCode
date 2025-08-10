@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-n-and-its-double-exist",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-n-and-its-double-exist\n        return 0;\n    }\n}"
+}

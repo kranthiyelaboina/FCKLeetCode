@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-a-string-contains-all-binary-codes-of-size-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-a-string-contains-all-binary-codes-of-size-k\n        return 0;\n    }\n}"
+}

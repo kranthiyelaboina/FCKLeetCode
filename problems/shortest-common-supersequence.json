@@ -1,0 +1,5 @@
+{
+  "problemName": "shortest-common-supersequence",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shortest-common-supersequence\n        return 0;\n    }\n}"
+}

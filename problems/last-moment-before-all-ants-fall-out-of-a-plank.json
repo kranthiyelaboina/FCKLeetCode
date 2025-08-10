@@ -1,0 +1,5 @@
+{
+  "problemName": "last-moment-before-all-ants-fall-out-of-a-plank",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for last-moment-before-all-ants-fall-out-of-a-plank\n        return 0;\n    }\n}"
+}

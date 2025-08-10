@@ -1,0 +1,5 @@
+{
+  "problemName": "contains-duplicate-iii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for contains-duplicate-iii\n        return 0;\n    }\n}"
+}

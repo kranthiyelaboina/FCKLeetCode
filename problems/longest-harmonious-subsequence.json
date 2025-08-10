@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-harmonious-subsequence",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-harmonious-subsequence\n        return 0;\n    }\n}"
+}

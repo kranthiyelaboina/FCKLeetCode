@@ -1,0 +1,5 @@
+{
+  "problemName": "flip-string-to-monotone-increasing",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for flip-string-to-monotone-increasing\n        return 0;\n    }\n}"
+}

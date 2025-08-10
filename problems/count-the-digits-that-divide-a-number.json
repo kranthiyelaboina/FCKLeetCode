@@ -1,0 +1,5 @@
+{
+  "problemName": "count-the-digits-that-divide-a-number",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-the-digits-that-divide-a-number\n        return 0;\n    }\n}"
+}

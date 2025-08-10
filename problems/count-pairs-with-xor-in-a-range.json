@@ -1,0 +1,5 @@
+{
+  "problemName": "count-pairs-with-xor-in-a-range",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-pairs-with-xor-in-a-range\n        return 0;\n    }\n}"
+}

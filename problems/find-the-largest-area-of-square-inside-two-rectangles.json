@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-largest-area-of-square-inside-two-rectangles",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-largest-area-of-square-inside-two-rectangles\n        return 0;\n    }\n}"
+}

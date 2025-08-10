@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-steps-to-reduce-a-number-to-zero",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-steps-to-reduce-a-number-to-zero\n        return 0;\n    }\n}"
+}

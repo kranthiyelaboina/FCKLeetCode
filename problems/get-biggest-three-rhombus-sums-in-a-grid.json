@@ -1,0 +1,5 @@
+{
+  "problemName": "get-biggest-three-rhombus-sums-in-a-grid",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for get-biggest-three-rhombus-sums-in-a-grid\n        return 0;\n    }\n}"
+}

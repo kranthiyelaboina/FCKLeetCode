@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-xor-of-two-numbers-in-an-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-xor-of-two-numbers-in-an-array\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-triplets-that-can-form-two-arrays-of-equal-xor\n        return 0;\n    }\n}"
+}

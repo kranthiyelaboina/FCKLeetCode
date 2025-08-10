@@ -1,0 +1,5 @@
+{
+  "problemName": "divide-array-into-arrays-with-max-difference",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for divide-array-into-arrays-with-max-difference\n        return 0;\n    }\n}"
+}

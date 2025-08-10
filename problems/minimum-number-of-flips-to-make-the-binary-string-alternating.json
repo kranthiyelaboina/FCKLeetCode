@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-flips-to-make-the-binary-string-alternating\n        return 0;\n    }\n}"
+}

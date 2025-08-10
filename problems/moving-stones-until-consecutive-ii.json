@@ -1,0 +1,5 @@
+{
+  "problemName": "moving-stones-until-consecutive-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for moving-stones-until-consecutive-ii\n        return 0;\n    }\n}"
+}

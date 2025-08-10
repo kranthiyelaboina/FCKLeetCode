@@ -1,0 +1,5 @@
+{
+  "problemName": "merge-k-sorted-lists",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for merge-k-sorted-lists\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "convert-1d-array-into-2d-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for convert-1d-array-into-2d-array\n        return 0;\n    }\n}"
+}

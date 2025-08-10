@@ -1,0 +1,5 @@
+{
+  "problemName": "reduction-operations-to-make-the-array-elements-equal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for reduction-operations-to-make-the-array-elements-equal\n        return 0;\n    }\n}"
+}

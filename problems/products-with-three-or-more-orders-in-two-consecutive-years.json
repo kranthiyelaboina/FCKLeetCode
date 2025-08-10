@@ -1,0 +1,5 @@
+{
+  "problemName": "products-with-three-or-more-orders-in-two-consecutive-years",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for products-with-three-or-more-orders-in-two-consecutive-years\n        return 0;\n    }\n}"
+}

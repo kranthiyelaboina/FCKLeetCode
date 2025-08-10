@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-number-of-operations-to-sort-a-binary-tree-by-level",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-number-of-operations-to-sort-a-binary-tree-by-level\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "cells-with-odd-values-in-a-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for cells-with-odd-values-in-a-matrix\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-burgers-with-no-waste-of-ingredients",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-burgers-with-no-waste-of-ingredients\n        return 0;\n    }\n}"
+}

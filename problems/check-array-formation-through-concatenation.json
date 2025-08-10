@@ -1,0 +1,5 @@
+{
+  "problemName": "check-array-formation-through-concatenation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-array-formation-through-concatenation\n        return 0;\n    }\n}"
+}

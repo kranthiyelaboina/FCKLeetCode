@@ -1,0 +1,5 @@
+{
+  "problemName": "calculate-amount-paid-in-taxes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for calculate-amount-paid-in-taxes\n        return 0;\n    }\n}"
+}

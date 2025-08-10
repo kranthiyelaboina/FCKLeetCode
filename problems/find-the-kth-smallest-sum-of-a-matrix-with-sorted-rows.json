@@ -1,0 +1,7 @@
+{
+  "problemName": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+  "language": "java",
+  "code": "class Solution {\n    public int kthSmallest(int[][] mat, int k) {\n        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);\n        pq.offer(0);\n        for (int[] row : mat) {\n            PriorityQueue<Integer> nextPq = new PriorityQueue<>((a, b) -> b - a);\n            for (int prevSum : pq) {\n                for (int num : row) {\n                    nextPq.offer(prevSum + num);\n                    if (nextPq.size() > k) {\n                        nextPq.poll();\n                    }\n                }\n            }\n            pq = nextPq;\n        }\n        return pq.poll();\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:17:48.979Z"
+}

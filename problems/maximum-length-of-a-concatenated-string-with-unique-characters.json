@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-length-of-a-concatenated-string-with-unique-characters",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-length-of-a-concatenated-string-with-unique-characters\n        return 0;\n    }\n}"
+}

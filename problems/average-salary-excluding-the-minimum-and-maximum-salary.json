@@ -1,0 +1,5 @@
+{
+  "problemName": "average-salary-excluding-the-minimum-and-maximum-salary",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for average-salary-excluding-the-minimum-and-maximum-salary\n        return 0;\n    }\n}"
+}

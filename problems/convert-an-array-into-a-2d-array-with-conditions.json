@@ -1,0 +1,5 @@
+{
+  "problemName": "convert-an-array-into-a-2d-array-with-conditions",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for convert-an-array-into-a-2d-array-with-conditions\n        return 0;\n    }\n}"
+}

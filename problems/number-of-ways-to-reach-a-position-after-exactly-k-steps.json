@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-ways-to-reach-a-position-after-exactly-k-steps\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "modify-graph-edge-weights",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for modify-graph-edge-weights\n        return 0;\n    }\n}"
+}

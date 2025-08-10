@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-depth-of-binary-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-depth-of-binary-tree\n        return 0;\n    }\n}"
+}

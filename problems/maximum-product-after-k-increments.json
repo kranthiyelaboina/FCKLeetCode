@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-product-after-k-increments",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-product-after-k-increments\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "count-collisions-of-monkeys-on-a-polygon",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-collisions-of-monkeys-on-a-polygon\n        return 0;\n    }\n}"
+}

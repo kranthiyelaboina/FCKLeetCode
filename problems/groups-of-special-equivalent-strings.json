@@ -1,0 +1,5 @@
+{
+  "problemName": "groups-of-special-equivalent-strings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for groups-of-special-equivalent-strings\n        return 0;\n    }\n}"
+}

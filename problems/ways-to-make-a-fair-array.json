@@ -1,0 +1,5 @@
+{
+  "problemName": "ways-to-make-a-fair-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for ways-to-make-a-fair-array\n        return 0;\n    }\n}"
+}

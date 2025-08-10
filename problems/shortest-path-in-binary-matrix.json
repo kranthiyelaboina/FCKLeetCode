@@ -1,0 +1,5 @@
+{
+  "problemName": "shortest-path-in-binary-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shortest-path-in-binary-matrix\n        return 0;\n    }\n}"
+}

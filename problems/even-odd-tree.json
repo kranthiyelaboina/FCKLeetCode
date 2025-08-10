@@ -1,0 +1,7 @@
+{
+  "problemName": "even-odd-tree",
+  "language": "java",
+  "code": "class Solution {\n    public boolean isEvenOddTree(TreeNode root) {\n        Queue<TreeNode> q = new LinkedList<>();\n        q.offer(root);\n        int level = 0;\n        while (!q.isEmpty()) {\n            int size = q.size();\n            int prev = level % 2 == 0 ? Integer.MIN_VALUE : Integer.MAX_VALUE;\n            boolean even = level % 2 == 0;\n            for (int i = 0; i < size; i++) {\n                TreeNode node = q.poll();\n                int val = node.val;\n                if (even) {\n                    if (val % 2 != 0 || val <= prev) return false;\n                    prev = val;\n                } else {\n                    if (val % 2 == 0 || val >= prev) return false;\n                    prev = val;\n                }\n                if (node.left != null) q.offer(node.left);\n                if (node.right != null) q.offer(node.right);\n            }\n            level++;\n        }\n        return true;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:08:38.082Z"
+}

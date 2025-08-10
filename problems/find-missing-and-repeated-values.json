@@ -1,0 +1,5 @@
+{
+  "problemName": "find-missing-and-repeated-values",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-missing-and-repeated-values\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-distinct-roll-sequences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-distinct-roll-sequences\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "sort-integers-by-the-number-of-1-bits",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sort-integers-by-the-number-of-1-bits\n        return 0;\n    }\n}"
+}

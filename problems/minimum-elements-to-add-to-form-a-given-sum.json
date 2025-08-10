@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-elements-to-add-to-form-a-given-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-elements-to-add-to-form-a-given-sum\n        return 0;\n    }\n}"
+}

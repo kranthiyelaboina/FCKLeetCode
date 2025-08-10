@@ -1,0 +1,5 @@
+{
+  "problemName": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for all-ancestors-of-a-node-in-a-directed-acyclic-graph\n        return 0;\n    }\n}"
+}

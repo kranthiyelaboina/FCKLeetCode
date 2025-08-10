@@ -1,0 +1,5 @@
+{
+  "problemName": "special-array-with-x-elements-greater-than-or-equal-x",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for special-array-with-x-elements-greater-than-or-equal-x\n        return 0;\n    }\n}"
+}

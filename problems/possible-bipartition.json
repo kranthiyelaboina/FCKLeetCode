@@ -1,0 +1,5 @@
+{
+  "problemName": "possible-bipartition",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for possible-bipartition\n        return 0;\n    }\n}"
+}

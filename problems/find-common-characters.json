@@ -1,0 +1,5 @@
+{
+  "problemName": "find-common-characters",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-common-characters\n        return 0;\n    }\n}"
+}

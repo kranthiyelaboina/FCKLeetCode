@@ -1,0 +1,5 @@
+{
+  "problemName": "count-words-obtained-after-adding-a-letter",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-words-obtained-after-adding-a-letter\n        return 0;\n    }\n}"
+}

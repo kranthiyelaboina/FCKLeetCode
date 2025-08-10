@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-remove-to-make-valid-parentheses",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-remove-to-make-valid-parentheses\n        return 0;\n    }\n}"
+}

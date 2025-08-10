@@ -1,0 +1,5 @@
+{
+  "problemName": "factorial-trailing-zeroes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for factorial-trailing-zeroes\n        return 0;\n    }\n}"
+}

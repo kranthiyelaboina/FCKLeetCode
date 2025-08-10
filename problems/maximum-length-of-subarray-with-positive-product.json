@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-length-of-subarray-with-positive-product",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-length-of-subarray-with-positive-product\n        return 0;\n    }\n}"
+}

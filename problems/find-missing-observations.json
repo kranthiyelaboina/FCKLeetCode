@@ -1,0 +1,5 @@
+{
+  "problemName": "find-missing-observations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-missing-observations\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-subarray-of-1s-after-deleting-one-element",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-subarray-of-1s-after-deleting-one-element\n        return 0;\n    }\n}"
+}

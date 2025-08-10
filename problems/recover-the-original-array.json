@@ -1,0 +1,5 @@
+{
+  "problemName": "recover-the-original-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for recover-the-original-array\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "non-overlapping-intervals",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for non-overlapping-intervals\n        return 0;\n    }\n}"
+}

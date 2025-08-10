@@ -1,0 +1,5 @@
+{
+  "problemName": "reveal-cards-in-increasing-order",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for reveal-cards-in-increasing-order\n        return 0;\n    }\n}"
+}

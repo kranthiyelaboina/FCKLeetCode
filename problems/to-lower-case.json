@@ -1,0 +1,5 @@
+{
+  "problemName": "to-lower-case",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for to-lower-case\n        return 0;\n    }\n}"
+}

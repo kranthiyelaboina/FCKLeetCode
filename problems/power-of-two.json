@@ -1,0 +1,7 @@
+{
+  "problemName": "power-of-two",
+  "language": "java",
+  "code": "class Solution {\n    public boolean isPowerOfTwo(int n) {\n        return n > 0 && (n & (n - 1)) == 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:15:23.819Z"
+}

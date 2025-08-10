@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-subarray-length-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-subarray-length-k\n        return 0;\n    }\n}"
+}

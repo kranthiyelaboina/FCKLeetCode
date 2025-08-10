@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-all-ones-with-row-and-column-flips",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-all-ones-with-row-and-column-flips\n        return 0;\n    }\n}"
+}

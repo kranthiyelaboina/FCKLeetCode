@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-product-of-splitted-binary-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-product-of-splitted-binary-tree\n        return 0;\n    }\n}"
+}

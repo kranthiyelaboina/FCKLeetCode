@@ -1,0 +1,5 @@
+{
+  "problemName": "separate-the-digits-in-an-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for separate-the-digits-in-an-array\n        return 0;\n    }\n}"
+}

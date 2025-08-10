@@ -1,0 +1,5 @@
+{
+  "problemName": "sort-characters-by-frequency",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sort-characters-by-frequency\n        return 0;\n    }\n}"
+}

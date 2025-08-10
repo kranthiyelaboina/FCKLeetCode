@@ -1,0 +1,5 @@
+{
+  "problemName": "last-stone-weight",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for last-stone-weight\n        return 0;\n    }\n}"
+}

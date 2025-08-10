@@ -1,0 +1,5 @@
+{
+  "problemName": "find-customers-with-positive-revenue-this-year",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-customers-with-positive-revenue-this-year\n        return 0;\n    }\n}"
+}

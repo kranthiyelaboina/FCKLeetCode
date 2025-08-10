@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-smooth-descent-periods-of-a-stock",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-smooth-descent-periods-of-a-stock\n        return 0;\n    }\n}"
+}

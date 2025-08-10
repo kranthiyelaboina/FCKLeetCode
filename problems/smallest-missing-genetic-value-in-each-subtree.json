@@ -1,0 +1,5 @@
+{
+  "problemName": "smallest-missing-genetic-value-in-each-subtree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for smallest-missing-genetic-value-in-each-subtree\n        return 0;\n    }\n}"
+}

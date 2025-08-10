@@ -1,0 +1,5 @@
+{
+  "problemName": "left-and-right-sum-differences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for left-and-right-sum-differences\n        return 0;\n    }\n}"
+}

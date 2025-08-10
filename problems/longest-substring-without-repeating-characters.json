@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-substring-without-repeating-characters",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-substring-without-repeating-characters\n        return 0;\n    }\n}"
+}

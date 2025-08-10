@@ -1,0 +1,5 @@
+{
+  "problemName": "friend-requests-ii-who-has-the-most-friends",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for friend-requests-ii-who-has-the-most-friends\n        return 0;\n    }\n}"
+}

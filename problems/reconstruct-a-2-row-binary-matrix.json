@@ -1,0 +1,5 @@
+{
+  "problemName": "reconstruct-a-2-row-binary-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for reconstruct-a-2-row-binary-matrix\n        return 0;\n    }\n}"
+}

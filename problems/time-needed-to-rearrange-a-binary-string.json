@@ -1,0 +1,5 @@
+{
+  "problemName": "time-needed-to-rearrange-a-binary-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for time-needed-to-rearrange-a-binary-string\n        return 0;\n    }\n}"
+}

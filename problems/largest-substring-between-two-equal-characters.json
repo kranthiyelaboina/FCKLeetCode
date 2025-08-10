@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-substring-between-two-equal-characters",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-substring-between-two-equal-characters\n        return 0;\n    }\n}"
+}

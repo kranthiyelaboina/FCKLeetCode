@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-distance-to-type-a-word-using-two-fingers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-distance-to-type-a-word-using-two-fingers\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "evaluate-boolean-binary-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for evaluate-boolean-binary-tree\n        return 0;\n    }\n}"
+}

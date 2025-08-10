@@ -1,0 +1,7 @@
+{
+  "problemName": "single-threaded-cpu",
+  "language": "java",
+  "code": "class Solution {\n    public int solve() {\n        // Intelligent fallback for Single Threaded Cpu\n        // This is a placeholder that needs manual implementation\n        return -1;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T14:37:40.722Z"
+}

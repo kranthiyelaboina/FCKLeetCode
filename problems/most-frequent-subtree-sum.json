@@ -1,0 +1,5 @@
+{
+  "problemName": "most-frequent-subtree-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for most-frequent-subtree-sum\n        return 0;\n    }\n}"
+}

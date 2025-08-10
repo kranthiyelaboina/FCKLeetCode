@@ -1,0 +1,5 @@
+{
+  "problemName": "max-points-on-a-line",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for max-points-on-a-line\n        return 0;\n    }\n}"
+}

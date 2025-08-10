@@ -1,0 +1,7 @@
+{
+  "problemName": "leaf-similar-trees",
+  "language": "java",
+  "code": "class Solution {\n    public boolean leafSimilar(TreeNode root1, TreeNode root2) {\n        List<Integer> leaves1 = new ArrayList<>();\n        List<Integer> leaves2 = new ArrayList<>();\n        getLeaves(root1, leaves1);\n        getLeaves(root2, leaves2);\n        return leaves1.equals(leaves2);\n    }\n    private void getLeaves(TreeNode node, List<Integer> leaves) {\n        if (node == null) {\n            return;\n        }\n        if (node.left == null && node.right == null) {\n            leaves.add(node.val);\n            return;\n        }\n        getLeaves(node.left, leaves);\n        getLeaves(node.right, leaves);\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:08:15.101Z"
+}

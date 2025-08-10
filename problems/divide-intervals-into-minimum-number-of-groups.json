@@ -1,0 +1,5 @@
+{
+  "problemName": "divide-intervals-into-minimum-number-of-groups",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for divide-intervals-into-minimum-number-of-groups\n        return 0;\n    }\n}"
+}

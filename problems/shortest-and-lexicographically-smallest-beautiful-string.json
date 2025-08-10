@@ -1,0 +1,5 @@
+{
+  "problemName": "shortest-and-lexicographically-smallest-beautiful-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for shortest-and-lexicographically-smallest-beautiful-string\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "problemName": "problem-231",
+  "language": "java",
+  "code": "class Solution {\n    public boolean isPowerOfTwo(int n) {\n        return n > 0 && Integer.bitCount(n) == 1;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:07:15.087Z"
+}

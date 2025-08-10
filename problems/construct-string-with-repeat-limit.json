@@ -1,0 +1,5 @@
+{
+  "problemName": "construct-string-with-repeat-limit",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for construct-string-with-repeat-limit\n        return 0;\n    }\n}"
+}

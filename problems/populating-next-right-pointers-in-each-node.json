@@ -1,0 +1,5 @@
+{
+  "problemName": "populating-next-right-pointers-in-each-node",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for populating-next-right-pointers-in-each-node\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-operations-to-halve-array-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-operations-to-halve-array-sum\n        return 0;\n    }\n}"
+}

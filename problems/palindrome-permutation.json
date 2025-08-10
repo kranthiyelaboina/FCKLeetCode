@@ -1,0 +1,5 @@
+{
+  "problemName": "palindrome-permutation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for palindrome-permutation\n        return 0;\n    }\n}"
+}

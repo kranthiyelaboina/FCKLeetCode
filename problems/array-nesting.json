@@ -1,0 +1,7 @@
+{
+  "problemName": "array-nesting",
+  "language": "java",
+  "code": "class Solution {\n    public int arrayNesting(int[] nums) {\n        int maxLen = 0;\n        boolean[] visited = new boolean[nums.length];\n        for (int i = 0; i < nums.length; i++) {\n            if (!visited[i]) {\n                int len = 0;\n                int slow = i;\n                while (!visited[slow]) {\n                    visited[slow] = true;\n                    slow = nums[slow];\n                    len++;\n                }\n                maxLen = Math.max(maxLen, len);\n            }\n        }\n        return maxLen;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:59:27.969Z"
+}

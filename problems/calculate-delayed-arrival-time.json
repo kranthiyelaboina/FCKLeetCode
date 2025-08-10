@@ -1,0 +1,5 @@
+{
+  "problemName": "calculate-delayed-arrival-time",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for calculate-delayed-arrival-time\n        return 0;\n    }\n}"
+}

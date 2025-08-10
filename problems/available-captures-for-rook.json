@@ -1,0 +1,5 @@
+{
+  "problemName": "available-captures-for-rook",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for available-captures-for-rook\n        return 0;\n    }\n}"
+}

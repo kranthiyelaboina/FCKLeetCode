@@ -1,0 +1,5 @@
+{
+  "problemName": "minimized-maximum-of-products-distributed-to-any-store",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimized-maximum-of-products-distributed-to-any-store\n        return 0;\n    }\n}"
+}

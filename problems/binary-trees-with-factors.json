@@ -1,0 +1,5 @@
+{
+  "problemName": "binary-trees-with-factors",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for binary-trees-with-factors\n        return 0;\n    }\n}"
+}

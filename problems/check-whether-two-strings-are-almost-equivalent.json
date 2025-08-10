@@ -1,0 +1,5 @@
+{
+  "problemName": "check-whether-two-strings-are-almost-equivalent",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-whether-two-strings-are-almost-equivalent\n        return 0;\n    }\n}"
+}

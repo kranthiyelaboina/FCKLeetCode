@@ -1,0 +1,5 @@
+{
+  "problemName": "recyclable-and-low-fat-products",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for recyclable-and-low-fat-products\n        return 0;\n    }\n}"
+}

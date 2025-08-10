@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold\n        return 0;\n    }\n}"
+}

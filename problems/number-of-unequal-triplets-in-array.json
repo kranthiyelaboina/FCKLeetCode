@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-unequal-triplets-in-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-unequal-triplets-in-array\n        return 0;\n    }\n}"
+}

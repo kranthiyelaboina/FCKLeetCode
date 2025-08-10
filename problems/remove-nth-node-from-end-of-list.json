@@ -1,0 +1,5 @@
+{
+  "problemName": "remove-nth-node-from-end-of-list",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for remove-nth-node-from-end-of-list\n        return 0;\n    }\n}"
+}

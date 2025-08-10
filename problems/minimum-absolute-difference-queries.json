@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-absolute-difference-queries",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-absolute-difference-queries\n        return 0;\n    }\n}"
+}

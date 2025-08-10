@@ -1,0 +1,5 @@
+{
+  "problemName": "design-a-stack-with-increment-operation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for design-a-stack-with-increment-operation\n        return 0;\n    }\n}"
+}

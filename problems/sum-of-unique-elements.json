@@ -1,0 +1,7 @@
+{
+  "problemName": "sum-of-unique-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int sumOfUnique(int[] nums) {\n        Map<Integer, Integer> countMap = new HashMap<>();\n        for (int num : nums) {\n            countMap.put(num, countMap.getOrDefault(num, 0) + 1);\n        }\n        int sum = 0;\n        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {\n            if (entry.getValue() == 1) {\n                sum += entry.getKey();\n            }\n        }\n        return sum;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-10T01:22:59.670Z"
+}

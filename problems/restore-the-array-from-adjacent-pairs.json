@@ -1,0 +1,5 @@
+{
+  "problemName": "restore-the-array-from-adjacent-pairs",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for restore-the-array-from-adjacent-pairs\n        return 0;\n    }\n}"
+}

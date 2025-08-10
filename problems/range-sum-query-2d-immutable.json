@@ -1,0 +1,5 @@
+{
+  "problemName": "range-sum-query-2d-immutable",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for range-sum-query-2d-immutable\n        return 0;\n    }\n}"
+}

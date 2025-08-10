@@ -1,0 +1,5 @@
+{
+  "problemName": "delete-greatest-value-in-each-row",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for delete-greatest-value-in-each-row\n        return 0;\n    }\n}"
+}

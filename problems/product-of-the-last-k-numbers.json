@@ -1,0 +1,5 @@
+{
+  "problemName": "product-of-the-last-k-numbers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for product-of-the-last-k-numbers\n        return 0;\n    }\n}"
+}

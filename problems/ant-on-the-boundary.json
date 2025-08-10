@@ -1,0 +1,5 @@
+{
+  "problemName": "ant-on-the-boundary",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for ant-on-the-boundary\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "repeated-string-match",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for repeated-string-match\n        return 0;\n    }\n}"
+}

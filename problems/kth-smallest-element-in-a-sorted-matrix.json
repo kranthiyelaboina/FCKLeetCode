@@ -1,0 +1,5 @@
+{
+  "problemName": "kth-smallest-element-in-a-sorted-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for kth-smallest-element-in-a-sorted-matrix\n        return 0;\n    }\n}"
+}

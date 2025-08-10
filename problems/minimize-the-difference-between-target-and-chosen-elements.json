@@ -1,0 +1,5 @@
+{
+  "problemName": "minimize-the-difference-between-target-and-chosen-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimize-the-difference-between-target-and-chosen-elements\n        return 0;\n    }\n}"
+}

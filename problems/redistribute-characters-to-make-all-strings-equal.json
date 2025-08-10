@@ -1,0 +1,5 @@
+{
+  "problemName": "redistribute-characters-to-make-all-strings-equal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for redistribute-characters-to-make-all-strings-equal\n        return 0;\n    }\n}"
+}

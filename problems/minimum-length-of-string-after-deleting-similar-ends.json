@@ -1,0 +1,7 @@
+{
+  "problemName": "minimum-length-of-string-after-deleting-similar-ends",
+  "language": "java",
+  "code": "class Solution {\n    public int minimumLength(String s) {\n        int left = 0;\n        int right = s.length() - 1;\n        while (left < right && s.charAt(left) == s.charAt(right)) {\n            char c = s.charAt(left);\n            while (left <= right && s.charAt(left) == c) {\n                left++;\n            }\n            while (left <= right && s.charAt(right) == c) {\n                right--;\n            }\n        }\n        return right - left + 1;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:42:38.458Z"
+}

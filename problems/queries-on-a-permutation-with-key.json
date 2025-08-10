@@ -1,0 +1,5 @@
+{
+  "problemName": "queries-on-a-permutation-with-key",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for queries-on-a-permutation-with-key\n        return 0;\n    }\n}"
+}

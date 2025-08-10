@@ -1,0 +1,5 @@
+{
+  "problemName": "max-number-of-k-sum-pairs",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for max-number-of-k-sum-pairs\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "intersection-of-two-linked-lists",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for intersection-of-two-linked-lists\n        return 0;\n    }\n}"
+}

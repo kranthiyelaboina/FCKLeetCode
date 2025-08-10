@@ -1,0 +1,5 @@
+{
+  "problemName": "flip-columns-for-maximum-number-of-equal-rows",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for flip-columns-for-maximum-number-of-equal-rows\n        return 0;\n    }\n}"
+}

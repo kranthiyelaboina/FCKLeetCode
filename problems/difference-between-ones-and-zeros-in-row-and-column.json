@@ -1,0 +1,5 @@
+{
+  "problemName": "difference-between-ones-and-zeros-in-row-and-column",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for difference-between-ones-and-zeros-in-row-and-column\n        return 0;\n    }\n}"
+}

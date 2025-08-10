@@ -1,0 +1,7 @@
+{
+  "problemName": "all-the-matches-of-the-league",
+  "language": "java",
+  "code": "class Solution {\n    public int numberOfMatches(int n) {\n        int matches = 0;\n        while (n > 1) {\n            matches += n / 2;\n            n = (n + 1) / 2;\n        }\n        return matches;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:48:09.099Z"
+}

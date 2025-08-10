@@ -1,0 +1,5 @@
+{
+  "problemName": "count-elements-with-strictly-smaller-and-greater-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-elements-with-strictly-smaller-and-greater-elements\n        return 0;\n    }\n}"
+}

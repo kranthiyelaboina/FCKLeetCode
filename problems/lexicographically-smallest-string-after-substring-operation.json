@@ -1,0 +1,5 @@
+{
+  "problemName": "lexicographically-smallest-string-after-substring-operation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for lexicographically-smallest-string-after-substring-operation\n        return 0;\n    }\n}"
+}

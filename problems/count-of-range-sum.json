@@ -1,0 +1,5 @@
+{
+  "problemName": "count-of-range-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-of-range-sum\n        return 0;\n    }\n}"
+}

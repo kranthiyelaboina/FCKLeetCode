@@ -1,0 +1,5 @@
+{
+  "problemName": "vertical-order-traversal-of-a-binary-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for vertical-order-traversal-of-a-binary-tree\n        return 0;\n    }\n}"
+}

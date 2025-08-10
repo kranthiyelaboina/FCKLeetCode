@@ -1,0 +1,5 @@
+{
+  "problemName": "add-edges-to-make-degrees-of-all-nodes-even",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for add-edges-to-make-degrees-of-all-nodes-even\n        return 0;\n    }\n}"
+}

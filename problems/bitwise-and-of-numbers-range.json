@@ -1,0 +1,5 @@
+{
+  "problemName": "bitwise-and-of-numbers-range",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for bitwise-and-of-numbers-range\n        return 0;\n    }\n}"
+}

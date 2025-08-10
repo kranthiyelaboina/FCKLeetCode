@@ -1,0 +1,5 @@
+{
+  "problemName": "smallest-value-after-replacing-with-sum-of-prime-factors",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for smallest-value-after-replacing-with-sum-of-prime-factors\n        return 0;\n    }\n}"
+}

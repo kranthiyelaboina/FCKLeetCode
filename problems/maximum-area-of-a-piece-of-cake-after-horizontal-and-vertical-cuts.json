@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts\n        return 0;\n    }\n}"
+}

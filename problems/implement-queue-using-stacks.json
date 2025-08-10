@@ -1,0 +1,5 @@
+{
+  "problemName": "implement-queue-using-stacks",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for implement-queue-using-stacks\n        return 0;\n    }\n}"
+}

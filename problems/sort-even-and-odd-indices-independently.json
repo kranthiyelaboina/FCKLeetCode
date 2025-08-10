@@ -1,0 +1,5 @@
+{
+  "problemName": "sort-even-and-odd-indices-independently",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sort-even-and-odd-indices-independently\n        return 0;\n    }\n}"
+}

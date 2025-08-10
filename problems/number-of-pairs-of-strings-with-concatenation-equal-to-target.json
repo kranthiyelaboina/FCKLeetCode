@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-pairs-of-strings-with-concatenation-equal-to-target\n        return 0;\n    }\n}"
+}

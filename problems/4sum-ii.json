@@ -1,0 +1,7 @@
+{
+  "problemName": "4sum-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: AI generation failed for 4sum Ii\n        // Please implement manually\n        return 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T09:57:03.318Z"
+}

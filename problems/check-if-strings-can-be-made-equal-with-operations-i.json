@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-strings-can-be-made-equal-with-operations-i",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-strings-can-be-made-equal-with-operations-i\n        return 0;\n    }\n}"
+}

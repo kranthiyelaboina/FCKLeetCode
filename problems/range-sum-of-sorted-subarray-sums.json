@@ -1,0 +1,5 @@
+{
+  "problemName": "range-sum-of-sorted-subarray-sums",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for range-sum-of-sorted-subarray-sums\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "the-category-of-each-member-in-the-store",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for the-category-of-each-member-in-the-store\n        return 0;\n    }\n}"
+}

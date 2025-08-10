@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-xor-after-operations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-xor-after-operations\n        return 0;\n    }\n}"
+}

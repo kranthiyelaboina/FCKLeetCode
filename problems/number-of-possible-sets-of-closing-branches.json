@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-possible-sets-of-closing-branches",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-possible-sets-of-closing-branches\n        return 0;\n    }\n}"
+}

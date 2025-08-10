@@ -1,0 +1,7 @@
+{
+  "problemName": "repeated-dna-sequences",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: AI generation failed for Repeated Dna Sequences\n        // Please implement manually\n        return 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:38:44.316Z"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "k-divisible-elements-subarrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for k-divisible-elements-subarrays\n        return 0;\n    }\n}"
+}

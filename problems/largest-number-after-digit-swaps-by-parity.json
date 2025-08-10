@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-number-after-digit-swaps-by-parity",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-number-after-digit-swaps-by-parity\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "flight-occupancy-and-waitlist-analysis",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for flight-occupancy-and-waitlist-analysis\n        return 0;\n    }\n}"
+}

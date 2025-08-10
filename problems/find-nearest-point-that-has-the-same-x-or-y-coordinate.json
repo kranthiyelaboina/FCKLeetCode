@@ -1,0 +1,5 @@
+{
+  "problemName": "find-nearest-point-that-has-the-same-x-or-y-coordinate",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-nearest-point-that-has-the-same-x-or-y-coordinate\n        return 0;\n    }\n}"
+}

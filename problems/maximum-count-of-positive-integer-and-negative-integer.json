@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-count-of-positive-integer-and-negative-integer",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-count-of-positive-integer-and-negative-integer\n        return 0;\n    }\n}"
+}

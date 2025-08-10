@@ -1,0 +1,5 @@
+{
+  "problemName": "find-and-replace-pattern",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-and-replace-pattern\n        return 0;\n    }\n}"
+}

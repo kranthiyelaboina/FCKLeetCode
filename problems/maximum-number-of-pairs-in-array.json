@@ -1,0 +1,7 @@
+{
+  "problemName": "maximum-number-of-pairs-in-array",
+  "language": "java",
+  "code": "class Solution {\n    public int[] numberOfPairs(int[] nums) {\n        Map<Integer, Integer> count = new HashMap<>();\n        for (int num : nums) {\n            count.put(num, count.getOrDefault(num, 0) + 1);\n        }\n        int pairs = 0;\n        int leftovers = 0;\n        for (int c : count.values()) {\n            pairs += c / 2;\n            leftovers += c % 2;\n        }\n        return new int[]{pairs, leftovers};\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:43:04.671Z"
+}

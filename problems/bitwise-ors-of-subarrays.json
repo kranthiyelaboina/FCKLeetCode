@@ -1,0 +1,5 @@
+{
+  "problemName": "bitwise-ors-of-subarrays",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for bitwise-ors-of-subarrays\n        return 0;\n    }\n}"
+}

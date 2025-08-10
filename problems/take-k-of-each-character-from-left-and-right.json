@@ -1,0 +1,5 @@
+{
+  "problemName": "take-k-of-each-character-from-left-and-right",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for take-k-of-each-character-from-left-and-right\n        return 0;\n    }\n}"
+}

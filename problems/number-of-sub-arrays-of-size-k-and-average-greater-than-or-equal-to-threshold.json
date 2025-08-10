@@ -1,0 +1,5 @@
+{
+  "problemName": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold\n        return 0;\n    }\n}"
+}

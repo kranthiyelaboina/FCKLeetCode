@@ -1,0 +1,5 @@
+{
+  "problemName": "classes-more-than-5-students",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for classes-more-than-5-students\n        return 0;\n    }\n}"
+}

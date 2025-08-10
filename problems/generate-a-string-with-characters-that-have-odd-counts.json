@@ -1,0 +1,5 @@
+{
+  "problemName": "generate-a-string-with-characters-that-have-odd-counts",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for generate-a-string-with-characters-that-have-odd-counts\n        return 0;\n    }\n}"
+}

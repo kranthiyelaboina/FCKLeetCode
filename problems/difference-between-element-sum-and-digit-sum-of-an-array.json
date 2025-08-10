@@ -1,0 +1,5 @@
+{
+  "problemName": "difference-between-element-sum-and-digit-sum-of-an-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for difference-between-element-sum-and-digit-sum-of-an-array\n        return 0;\n    }\n}"
+}

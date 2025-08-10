@@ -1,0 +1,5 @@
+{
+  "problemName": "node-with-highest-edge-score",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for node-with-highest-edge-score\n        return 0;\n    }\n}"
+}

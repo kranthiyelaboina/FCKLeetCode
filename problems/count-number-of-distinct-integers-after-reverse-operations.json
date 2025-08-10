@@ -1,0 +1,5 @@
+{
+  "problemName": "count-number-of-distinct-integers-after-reverse-operations",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-number-of-distinct-integers-after-reverse-operations\n        return 0;\n    }\n}"
+}

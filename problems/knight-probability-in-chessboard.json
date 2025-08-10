@@ -1,0 +1,5 @@
+{
+  "problemName": "knight-probability-in-chessboard",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for knight-probability-in-chessboard\n        return 0;\n    }\n}"
+}

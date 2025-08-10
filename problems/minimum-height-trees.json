@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-height-trees",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-height-trees\n        return 0;\n    }\n}"
+}

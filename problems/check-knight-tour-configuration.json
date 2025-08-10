@@ -1,0 +1,5 @@
+{
+  "problemName": "check-knight-tour-configuration",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-knight-tour-configuration\n        return 0;\n    }\n}"
+}

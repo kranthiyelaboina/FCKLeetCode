@@ -1,0 +1,7 @@
+{
+  "problemName": "course-schedule-iv",
+  "language": "java",
+  "code": "class Solution {\n    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {\n        List<Boolean> result = new ArrayList<>();\n        List<List<Integer>> graph = new ArrayList<>();\n        for (int i = 0; i < numCourses; i++) {\n            graph.add(new ArrayList<>());\n        }\n        for (int[] pre : prerequisites) {\n            graph.get(pre[1]).add(pre[0]);\n        }\n        for (int[] query : queries) {\n            boolean reachable = dfs(graph, query[0], query[1], new HashSet<>());\n            result.add(reachable);\n        }\n        return result;\n    }\n    private boolean dfs(List<List<Integer>> graph, int start, int end, Set<Integer> visited) {\n        if (start == end) return true;\n        visited.add(start);\n        for (int neighbor : graph.get(start)) {\n            if (!visited.contains(neighbor)) {\n                if (dfs(graph, neighbor, end, visited)) return true;\n            }\n        }\n        return false;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T13:40:18.143Z"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-width-of-columns-of-a-grid",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-width-of-columns-of-a-grid\n        return 0;\n    }\n}"
+}

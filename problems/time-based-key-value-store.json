@@ -1,0 +1,5 @@
+{
+  "problemName": "time-based-key-value-store",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for time-based-key-value-store\n        return 0;\n    }\n}"
+}

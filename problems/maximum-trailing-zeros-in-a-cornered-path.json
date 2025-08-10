@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-trailing-zeros-in-a-cornered-path",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-trailing-zeros-in-a-cornered-path\n        return 0;\n    }\n}"
+}

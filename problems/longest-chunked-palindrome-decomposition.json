@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-chunked-palindrome-decomposition",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-chunked-palindrome-decomposition\n        return 0;\n    }\n}"
+}

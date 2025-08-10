@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-candies-you-can-get-from-boxes",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-candies-you-can-get-from-boxes\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "greatest-common-divisor-of-strings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for greatest-common-divisor-of-strings\n        return 0;\n    }\n}"
+}

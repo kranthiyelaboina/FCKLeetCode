@@ -1,0 +1,5 @@
+{
+  "problemName": "subarray-sums-divisible-by-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for subarray-sums-divisible-by-k\n        return 0;\n    }\n}"
+}

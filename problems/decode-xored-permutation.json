@@ -1,0 +1,5 @@
+{
+  "problemName": "decode-xored-permutation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for decode-xored-permutation\n        return 0;\n    }\n}"
+}

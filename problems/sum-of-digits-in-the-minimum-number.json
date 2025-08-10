@@ -1,0 +1,5 @@
+{
+  "problemName": "sum-of-digits-in-the-minimum-number",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for sum-of-digits-in-the-minimum-number\n        return 0;\n    }\n}"
+}

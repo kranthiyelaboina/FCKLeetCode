@@ -1,0 +1,5 @@
+{
+  "problemName": "frequency-of-the-most-frequent-element",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for frequency-of-the-most-frequent-element\n        return 0;\n    }\n}"
+}

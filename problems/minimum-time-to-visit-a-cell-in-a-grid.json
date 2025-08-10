@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-time-to-visit-a-cell-in-a-grid",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-time-to-visit-a-cell-in-a-grid\n        return 0;\n    }\n}"
+}

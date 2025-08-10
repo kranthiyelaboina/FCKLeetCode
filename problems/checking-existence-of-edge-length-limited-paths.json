@@ -1,0 +1,5 @@
+{
+  "problemName": "checking-existence-of-edge-length-limited-paths",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for checking-existence-of-edge-length-limited-paths\n        return 0;\n    }\n}"
+}

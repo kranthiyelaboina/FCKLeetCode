@@ -1,0 +1,7 @@
+{
+  "problemName": "triangle-judgement",
+  "language": "java",
+  "code": "class Solution {\n    public boolean isTriangle(int a, int b, int c) {\n        return a + b > c && a + c > b && b + c > a;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:56:29.355Z"
+}

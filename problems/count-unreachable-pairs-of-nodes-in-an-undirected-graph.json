@@ -1,0 +1,5 @@
+{
+  "problemName": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-unreachable-pairs-of-nodes-in-an-undirected-graph\n        return 0;\n    }\n}"
+}

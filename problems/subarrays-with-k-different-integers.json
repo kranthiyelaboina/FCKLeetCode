@@ -1,0 +1,5 @@
+{
+  "problemName": "subarrays-with-k-different-integers",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for subarrays-with-k-different-integers\n        return 0;\n    }\n}"
+}

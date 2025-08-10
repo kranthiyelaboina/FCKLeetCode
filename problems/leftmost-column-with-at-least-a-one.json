@@ -1,0 +1,5 @@
+{
+  "problemName": "leftmost-column-with-at-least-a-one",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for leftmost-column-with-at-least-a-one\n        return 0;\n    }\n}"
+}

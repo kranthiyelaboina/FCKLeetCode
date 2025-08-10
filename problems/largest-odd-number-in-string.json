@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-odd-number-in-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-odd-number-in-string\n        return 0;\n    }\n}"
+}

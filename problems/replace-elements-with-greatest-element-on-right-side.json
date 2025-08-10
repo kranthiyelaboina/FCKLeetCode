@@ -1,0 +1,5 @@
+{
+  "problemName": "replace-elements-with-greatest-element-on-right-side",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for replace-elements-with-greatest-element-on-right-side\n        return 0;\n    }\n}"
+}

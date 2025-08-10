@@ -1,0 +1,5 @@
+{
+  "problemName": "find-the-highest-altitude",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-the-highest-altitude\n        return 0;\n    }\n}"
+}

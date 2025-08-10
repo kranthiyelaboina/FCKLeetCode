@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-a-parentheses-string-can-be-valid",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-a-parentheses-string-can-be-valid\n        return 0;\n    }\n}"
+}

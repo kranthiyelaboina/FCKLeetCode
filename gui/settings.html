@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - LeetCoder Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="settings-link">← Back to Main</a>
+        
+        <header class="header">
+            <div class="logo-icon">LC</div>
+            <h1>Settings</h1>
+            <p>Configure your solution generator</p>
+        </header>
+
+        <!-- API Configuration -->
+        <div class="card">
+            <h2>API Configuration</h2>
+            
+            <div class="form-group">
+                <label class="form-label" for="apiKey">Google Gemini API Key</label>
+                <div class="input-group">
+                    <input type="password" 
+                           id="apiKey" 
+                           class="form-input" 
+                           placeholder="Enter your Gemini API key">
+                    <button type="button" id="toggleApiKey" class="btn btn-outline">
+                        Show
+                    </button>
+                </div>
+                <div class="help-text">
+                    Get your API key from 
+                    <a href="#" id="openGeminiLink" class="text-link">Google AI Studio</a>
+                </div>
+            </div>
+
+            <div class="form-group mb-0">
+                <label class="form-label" for="geminiModel">AI Model</label>
+                <select id="geminiModel" class="form-select">
+                    <option value="gemini-2.0-flash-exp">Gemini 2.0 Flash Experimental (Fastest)</option>
+                    <option value="gemini-1.5-flash" selected>Gemini 1.5 Flash (Recommended)</option>
+                    <option value="gemini-1.5-pro">Gemini 1.5 Pro (Most Accurate)</option>
+                    <option value="gemini-pro">Gemini Pro (Stable)</option>
+                </select>
+                <div class="help-text">Choose AI model for solution generation</div>
+            </div>
+        </div>
+
+        <!-- Programming Language -->
+        <div class="card">
+            <h2>Programming Language</h2>
+            
+            <div class="form-group mb-0">
+                <label class="form-label" for="programmingLanguage">Default Language</label>
+                <select id="programmingLanguage" class="form-select">
+                    <option value="java" selected>Java</option>
+                    <option value="python">Python</option>
+                    <option value="cpp">C++</option>
+                    <option value="c">C</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+                <div class="help-text">Solutions will be generated in this language</div>
+            </div>
+        </div>
+
+        <!-- Performance Settings -->
+        <div class="card">
+            <h2>Performance Settings</h2>
+            
+            <div class="form-group">
+                <div class="checkbox-group">
+                    <div class="checkbox">
+                        <input type="checkbox" id="enableOptimizations" checked>
+                        <div class="checkbox-mark"></div>
+                    </div>
+                    <label class="checkbox-label" for="enableOptimizations">
+                        Enable AI Optimizations
+                    </label>
+                </div>
+                <div class="help-text">Improves solution quality with advanced prompts</div>
+            </div>
+
+            <div class="form-group mb-0">
+                <div class="checkbox-group">
+                    <div class="checkbox">
+                        <input type="checkbox" id="enableFallback" checked>
+                        <div class="checkbox-mark"></div>
+                    </div>
+                    <label class="checkbox-label" for="enableFallback">
+                        Enable Model Fallback
+                    </label>
+                </div>
+                <div class="help-text">Switch to backup models if primary fails</div>
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="card">
+            <div class="btn-group">
+                <button id="saveSettings" class="btn btn-primary">
+                    Save Settings
+                </button>
+                
+                <button id="testApiKey" class="btn btn-outline">
+                    Test API Key
+                </button>
+                
+                <button id="resetSettings" class="btn btn-secondary">
+                    Reset to Defaults
+                </button>
+            </div>
+        </div>
+
+        <!-- Status -->
+        <div id="settingsStatus" class="card status-card hidden">
+            <div class="status-content">
+                <div id="settingsStatusMessage">Saving settings...</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Developed by Kranthi Yelaboina</p>
+        </footer>
+    </div>
+
+    <script src="settings.js"></script>
+</body>
+</html>

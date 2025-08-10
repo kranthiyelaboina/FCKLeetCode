@@ -1,0 +1,5 @@
+{
+  "problemName": "count-subarrays-where-max-element-appears-at-least-k-times",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for count-subarrays-where-max-element-appears-at-least-k-times\n        return 0;\n    }\n}"
+}

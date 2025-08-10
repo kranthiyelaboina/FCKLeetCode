@@ -1,0 +1,5 @@
+{
+  "problemName": "n-repeated-element-in-size-2n-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for n-repeated-element-in-size-2n-array\n        return 0;\n    }\n}"
+}

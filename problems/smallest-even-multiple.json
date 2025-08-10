@@ -1,0 +1,5 @@
+{
+  "problemName": "smallest-even-multiple",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for smallest-even-multiple\n        return 0;\n    }\n}"
+}

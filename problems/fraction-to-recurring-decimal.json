@@ -1,0 +1,5 @@
+{
+  "problemName": "fraction-to-recurring-decimal",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for fraction-to-recurring-decimal\n        return 0;\n    }\n}"
+}

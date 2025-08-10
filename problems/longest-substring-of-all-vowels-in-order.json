@@ -1,0 +1,5 @@
+{
+  "problemName": "longest-substring-of-all-vowels-in-order",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for longest-substring-of-all-vowels-in-order\n        return 0;\n    }\n}"
+}

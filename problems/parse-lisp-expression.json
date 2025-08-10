@@ -1,0 +1,5 @@
+{
+  "problemName": "parse-lisp-expression",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for parse-lisp-expression\n        return 0;\n    }\n}"
+}

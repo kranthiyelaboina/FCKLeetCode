@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-number-at-least-twice-of-others",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-number-at-least-twice-of-others\n        return 0;\n    }\n}"
+}

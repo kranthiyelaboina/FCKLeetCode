@@ -1,0 +1,5 @@
+{
+  "problemName": "median-of-a-row-wise-sorted-matrix",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for median-of-a-row-wise-sorted-matrix\n        return 0;\n    }\n}"
+}

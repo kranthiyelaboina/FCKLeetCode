@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-moves-to-equal-array-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-moves-to-equal-array-elements\n        return 0;\n    }\n}"
+}

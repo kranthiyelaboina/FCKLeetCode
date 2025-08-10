@@ -1,0 +1,7 @@
+{
+  "problemName": "article-views-i",
+  "language": "java",
+  "code": "class Solution {\n    public int[] articleViewsIX(int[][] views) {\n        int n = views.length;\n        int[] ans = new int[n];\n        for (int i = 0; i < n; i++) {\n            ans[i] = views[i][1];\n        }\n        Arrays.sort(ans);\n        return ans;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-10T01:05:33.022Z"
+}

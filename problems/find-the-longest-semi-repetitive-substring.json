@@ -1,0 +1,7 @@
+{
+  "problemName": "find-the-longest-semi-repetitive-substring",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: AI generation failed for Find The Longest Semi Repetitive Substring\n        // Please implement manually\n        return 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T12:40:23.091Z"
+}

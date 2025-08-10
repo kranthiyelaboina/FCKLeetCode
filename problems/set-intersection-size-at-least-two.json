@@ -1,0 +1,5 @@
+{
+  "problemName": "set-intersection-size-at-least-two",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for set-intersection-size-at-least-two\n        return 0;\n    }\n}"
+}

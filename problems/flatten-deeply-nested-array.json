@@ -1,0 +1,5 @@
+{
+  "problemName": "flatten-deeply-nested-array",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for flatten-deeply-nested-array\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "partition-string-into-substrings-with-values-at-most-k",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for partition-string-into-substrings-with-values-at-most-k\n        return 0;\n    }\n}"
+}

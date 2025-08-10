@@ -1,0 +1,5 @@
+{
+  "problemName": "distance-between-bus-stops",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for distance-between-bus-stops\n        return 0;\n    }\n}"
+}

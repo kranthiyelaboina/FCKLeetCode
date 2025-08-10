@@ -1,0 +1,5 @@
+{
+  "problemName": "minimum-moves-to-convert-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for minimum-moves-to-convert-string\n        return 0;\n    }\n}"
+}

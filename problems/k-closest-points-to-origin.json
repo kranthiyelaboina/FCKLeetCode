@@ -1,0 +1,5 @@
+{
+  "problemName": "k-closest-points-to-origin",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for k-closest-points-to-origin\n        return 0;\n    }\n}"
+}

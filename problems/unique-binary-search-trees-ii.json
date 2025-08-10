@@ -1,0 +1,5 @@
+{
+  "problemName": "unique-binary-search-trees-ii",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for unique-binary-search-trees-ii\n        return 0;\n    }\n}"
+}

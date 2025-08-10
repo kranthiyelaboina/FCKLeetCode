@@ -1,0 +1,5 @@
+{
+  "problemName": "max-value-of-equation",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for max-value-of-equation\n        return 0;\n    }\n}"
+}

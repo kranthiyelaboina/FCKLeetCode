@@ -1,0 +1,5 @@
+{
+  "problemName": "check-if-two-string-arrays-are-equivalent",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for check-if-two-string-arrays-are-equivalent\n        return 0;\n    }\n}"
+}

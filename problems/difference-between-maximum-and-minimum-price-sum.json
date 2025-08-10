@@ -1,0 +1,5 @@
+{
+  "problemName": "difference-between-maximum-and-minimum-price-sum",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for difference-between-maximum-and-minimum-price-sum\n        return 0;\n    }\n}"
+}

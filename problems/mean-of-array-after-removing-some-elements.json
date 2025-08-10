@@ -1,0 +1,5 @@
+{
+  "problemName": "mean-of-array-after-removing-some-elements",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for mean-of-array-after-removing-some-elements\n        return 0;\n    }\n}"
+}

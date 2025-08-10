@@ -1,0 +1,5 @@
+{
+  "problemName": "complement-of-base-10-integer",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for complement-of-base-10-integer\n        return 0;\n    }\n}"
+}

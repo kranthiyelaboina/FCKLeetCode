@@ -1,0 +1,5 @@
+{
+  "problemName": "replace-the-substring-for-balanced-string",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for replace-the-substring-for-balanced-string\n        return 0;\n    }\n}"
+}

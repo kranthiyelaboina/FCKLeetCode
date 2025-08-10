@@ -1,0 +1,5 @@
+{
+  "problemName": "maximum-number-of-non-overlapping-palindrome-substrings",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for maximum-number-of-non-overlapping-palindrome-substrings\n        return 0;\n    }\n}"
+}

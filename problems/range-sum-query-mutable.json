@@ -1,0 +1,7 @@
+{
+  "problemName": "range-sum-query-mutable",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // Generated code was malformed\n        return 0;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T10:16:23.069Z"
+}

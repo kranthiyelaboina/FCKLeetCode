@@ -1,0 +1,5 @@
+{
+  "problemName": "find-root-of-n-ary-tree",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for find-root-of-n-ary-tree\n        return 0;\n    }\n}"
+}

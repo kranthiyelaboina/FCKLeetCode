@@ -1,0 +1,5 @@
+{
+  "problemName": "drop-type-1-orders-for-customers-with-type-0-orders",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for drop-type-1-orders-for-customers-with-type-0-orders\n        return 0;\n    }\n}"
+}

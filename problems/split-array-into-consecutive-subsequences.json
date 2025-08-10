@@ -1,0 +1,7 @@
+{
+  "problemName": "split-array-into-consecutive-subsequences",
+  "language": "java",
+  "code": "import java.util.HashMap;\nimport java.util.Map;\nclass Solution {\n    public boolean isPossible(int[] nums) {\n        Map<Integer, Integer> countMap = new HashMap<>();\n        Map<Integer, Integer> tailMap = new HashMap<>();\n        for (int num : nums) {\n            countMap.put(num, countMap.getOrDefault(num, 0) + 1);\n        }\n        for (int num : nums) {\n            if (countMap.get(num) == 0) continue;\n            countMap.put(num, countMap.get(num) - 1);\n            if (tailMap.getOrDefault(num - 1, 0) > 0) {\n                tailMap.put(num - 1, tailMap.get(num - 1) - 1);\n                tailMap.put(num, tailMap.getOrDefault(num, 0) + 1);\n            } else {\n                if (countMap.getOrDefault(num + 1, 0) > 0 && countMap.getOrDefault(num + 2, 0) > 0) {\n                    countMap.put(num + 1, countMap.get(num + 1) - 1);\n                    countMap.put(num + 2, countMap.get(num + 2) - 1);\n                    tailMap.put(num + 2, tailMap.getOrDefault(num + 2, 0) + 1);\n                } else {\n                    return false;\n                }\n            }\n        }\n        return true;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-10T01:20:36.796Z"
+}

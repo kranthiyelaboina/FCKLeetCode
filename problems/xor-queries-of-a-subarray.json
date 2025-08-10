@@ -1,0 +1,5 @@
+{
+  "problemName": "xor-queries-of-a-subarray",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for xor-queries-of-a-subarray\n        return 0;\n    }\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "problemName": "removing-minimum-number-of-magic-beans",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for removing-minimum-number-of-magic-beans\n        return 0;\n    }\n}"
+}

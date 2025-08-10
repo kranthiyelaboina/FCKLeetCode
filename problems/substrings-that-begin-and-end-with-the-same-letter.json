@@ -1,0 +1,5 @@
+{
+  "problemName": "substrings-that-begin-and-end-with-the-same-letter",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for substrings-that-begin-and-end-with-the-same-letter\n        return 0;\n    }\n}"
+}

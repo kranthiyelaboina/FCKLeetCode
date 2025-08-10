@@ -1,0 +1,5 @@
+{
+  "problemName": "how-many-numbers-are-smaller-than-the-current-number",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for how-many-numbers-are-smaller-than-the-current-number\n        return 0;\n    }\n}"
+}

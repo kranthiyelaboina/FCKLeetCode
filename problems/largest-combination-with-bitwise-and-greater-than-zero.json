@@ -1,0 +1,5 @@
+{
+  "problemName": "largest-combination-with-bitwise-and-greater-than-zero",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for largest-combination-with-bitwise-and-greater-than-zero\n        return 0;\n    }\n}"
+}

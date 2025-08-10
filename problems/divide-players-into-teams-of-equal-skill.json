@@ -1,0 +1,5 @@
+{
+  "problemName": "divide-players-into-teams-of-equal-skill",
+  "language": "java",
+  "code": "class Solution {\n    public int solution() {\n        // TODO: Implement solution for divide-players-into-teams-of-equal-skill\n        return 0;\n    }\n}"
+}

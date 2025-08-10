@@ -1,0 +1,7 @@
+{
+  "problemName": "best-time-to-buy-and-sell-stock-iv",
+  "language": "java",
+  "code": "class Solution {\n    public int solve() {\n        // Intelligent fallback for Best Time To Buy And Sell Stock Iv\n        // This is a placeholder that needs manual implementation\n        return -1;\n    }\n}",
+  "generatedBy": "gemini-ai",
+  "timestamp": "2025-08-09T14:43:58.892Z"
+}
