@@ -1,9 +1,9 @@
 
-# 🤖 LeetCoder Bot
+# FCKLeetCode Bot
 
 **Automated LeetCode Problem Solver with AI Integration**
 
-LeetCoder Bot is an intelligent automation tool that uses Google's Gemini AI to solve LeetCode problems automatically. It features a modern GUI interface, multi-language support, and advanced web automation capabilities.
+FCKLeetCode Bot is an intelligent automation tool that uses Google's Gemini AI to solve LeetCode problems automatically. It features a modern GUI interface, multi-language support, and advanced web automation capabilities.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D%2018.0.0-green.svg)](https://nodejs.org/)
